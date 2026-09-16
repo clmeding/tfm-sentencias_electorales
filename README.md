@@ -178,6 +178,15 @@ modelo/
                                               sobre embeddings)
   scaler.joblib                               Escalador usado antes de clasificar
   label_encoder.joblib                        Codificador de las clases de sentido
+
+
+## Requisitos
+Además de las dependencias de Python (`pip install -r requirements.txt`), el procesamiento
+de OCR requiere dos herramientas de sistema, no instalables vía pip:
+
+- macOS: `brew install ocrmypdf tesseract`
+- Linux (Debian/Ubuntu): `apt install ocrmypdf tesseract-ocr`
+
 ```
 
 ## Análisis descriptivo del catálogo de sentencias
