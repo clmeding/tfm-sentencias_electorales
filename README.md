@@ -215,7 +215,7 @@ Cada documento del dataset de modelado se convierte en un vector semántico ante
 - **MiniLM** (384 dimensiones): exactitud 63.7%, F1 macro 0.443, F1 ponderado 0.625.
 - **mpnet** (paraphrase-multilingual-mpnet-base-v2, 768 dimensiones): exactitud 67.4%, F1 macro 0.519, F1 ponderado 0.663.
 
-Se adoptó mpnet como modelo oficial: la mejora en F1 macro indica que generaliza mejor específicamente sobre las clases minoritarias, no solo sobre las clases con más ejemplos.v (scripts/generar_embeddings.py)
+Se adoptó mpnet como modelo oficial: la mejora en F1 macro indica que generaliza mejor específicamente sobre las clases minoritarias, no solo sobre las clases con más ejemplos. (scripts/generar_embeddings.py)
 
 ## Modelo de clasificación del sentido resolutivo
 
