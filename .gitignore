@@ -1,0 +1,46 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Documentos de trabajo (PDFs originales, PDFs con capa OCR, resultados
+# extraídos) -- estos son datos, no código, y pueden pesar varios GB en
+# el corpus completo. No deben subirse al repositorio.
+documents/
+*.pdf
+
+# Dataset de modelado (contiene el texto completo de cada documento,
+# igual que documents/) y artefactos del modelo entrenado (embeddings,
+# clasificador) -- se regeneran corriendo los scripts de scripts/, no
+# hace falta versionarlos.
+data/dataset_modelo.parquet
+modelo/
+
+# Logs
+*.log
+
+# Archivos de sistema
+.DS_Store
+
+# Configuración local de editores
+.vscode/
+.idea/
+
+# Cachés de la API de Gemini (costaron dinero real generarlas: ~$1.50-2 USD).
+# No se versionan aquí; hay respaldo en ~/Desktop/respaldo-tfm-gemini/
+data/sentido_gemini.json
+data/embeddings_gemini_raw.json
+
+# Carpeta local de alguna herramienta, no es parte del proyecto
+.agents/
+analisis_tesis/output/
+
+# Base SQLite de consulta (etapa "Load" del ETL) -- se regenera con
+# scripts/cargar_sqlite.py a partir de los CSV/JSON ya versionados.
+data/corpus.db
+.env

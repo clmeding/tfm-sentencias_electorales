@@ -1,0 +1,867 @@
+expediente,json_filename,category,year,sentido,temas,temas_extendidos,temas_panel,fuente_tema
+AP_AP-01-2023,AP_AP-01-2023.json,AP,2023,sobresee,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-01-2025,AP_SENTENCIA TEE-AP-01-2025.json,AP,2025,desecha,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-AP-14-2024,AP_SENTENCIA TEE-AP-14-2024 22-05-2024.json,AP,2024,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-15-2024,AP_SENTENCIA TEE-AP-15-2024 22-05-2024.json,AP,2024,confirma,,"Reelección, Registro y sustitución de candidaturas",Otros temas identificados,gemini
+TEE-AP-18-2024,AP_SENTENCIA TEE-AP-18-2024 23-05-2024.json,AP,2024,desecha,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-19-2024,AP_SENTENCIA TEE-AP-19-2024 20-05-2024.json,AP,2024,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-21-2024,AP_SENTENCIA TEE-AP-21-2024 08-06-2024.json,AP,2024,revoca,,Acción afirmativa,Otros temas identificados,gemini
+TEE-AP-22-2024,AP_SENTENCIA TEE-AP-22-2024 11-06-2024.json,AP,2024,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-24-2024,AP_SENTENCIA TEE-AP-24-2024 24-10-2024.json,AP,2024,revoca,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-AP-25-2024,AP_Sentencia TEE-AP-25-2024.json,AP,2024,revoca,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+AP_TEE- AP-12-2024,AP_TEE- AP-12-2024.json,AP,2024,no_detectado,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-AP-01-2017,AP_TEE-AP-01-2017.json,AP,2017,confirma,,Reglamento de la oficialía electoral,Otros temas identificados,gemini
+TEE-AP-01-2018,AP_TEE-AP-01-2018 y acumulado.json,AP,2018,confirma,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-AP-01-2019,AP_TEE-AP-01-2019 y acumulados.json,AP,2019,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-AP-01-2020,AP_TEE-AP-01-2020.json,AP,2020,confirma,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-AP-01-2021,AP_TEE-AP-01-2021.json,AP,2021,confirma,,"Acción afirmativa, Usos y costumbres indígenas",Otros temas identificados,gemini
+TEE-AP-01-2024,AP_TEE-AP-01-2024 Y SUS ACUMULADOS.json,AP,2024,no_detectado,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-AP-01-2025,AP_TEE-AP-01-2025.json,AP,2025,desecha,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-AP-01-2026,AP_TEE-AP-01-2026.json,AP,2026,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-AP-02-2017,AP_TEE-AP-02-2017.json,AP,2017,no_detectado,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-AP-02-2020,AP_TEE-AP-02-2020 incidental 19-06-2020.json,AP,2020,no_detectado,,Otro / no identificado,Otro / no identificado,gemini
+TEE-AP-02-2020,AP_TEE-AP-02-2020.json,AP,2020,sobresee,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-AP-02-2021,AP_TEE-AP-02-2021 y acumulado.json,AP,2021,no_detectado,"Violencia política de género, Remuneraciones y dietas de cargos públicos","Violencia política de género, Remuneraciones y dietas de cargos públicos","Violencia política de género, Remuneraciones y dietas de cargos públicos",gemini
+TEE-AP-02-2023,AP_TEE-AP-02-2023.json,AP,2023,confirma,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-02-2024,AP_TEE-AP-02-2024 Y SU ACUMUALDO TEE-AP-04-2024.json,AP,2024,revoca,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-AP-02-2026,AP_TEE-AP-02-2026.json,AP,2026,revoca,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-AP-03-2017,AP_TEE-AP-03-2017.json,AP,2017,confirma,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-AP-03-2018,AP_TEE-AP-03-2018.json,AP,2018,revoca,Fiscalización / Recursos públicos,"Fiscalización / Recursos públicos, Desistimiento",Fiscalización / Recursos públicos,gemini
+TEE-AP-03-2020,AP_TEE-AP-03-2020.json,AP,2020,sobresee,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-AP-03-2023,AP_TEE-AP-03-2023 SENTENCIA.json,AP,2023,desecha,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-03-2023,AP_TEE-AP-03-2023.json,AP,2023,desecha,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-04-2017,AP_TEE-AP-04-2017.json,AP,2017,desecha,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-04-2018,AP_TEE-AP-04-2018.json,AP,2018,modifica,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-04-2019,AP_TEE-AP-04-2019.json,AP,2019,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-04-2020,AP_TEE-AP-04-2020.json,AP,2020,sobresee,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-AP-04-2021,AP_TEE-AP-04-2021 y acumulados INCIDENTE EXCITATIVA.json,AP,2021,cumplida,,Desistimiento,Otros temas identificados,gemini
+TEE-AP-04-2021,AP_TEE-AP-04-2021 y acumulados.json,AP,2021,confirma,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-AP-04-2023,AP_TEE-AP-04-2023 RESOLUCION.json,AP,2023,confirma,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-04-2023,AP_TEE-AP-04-2023.json,AP,2023,confirma,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-05-2017,AP_TEE-AP-05-2017.json,AP,2017,revoca,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-AP-05-2018,AP_TEE-AP-05-2018 y acumulado.json,AP,2018,modifica,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-AP-05-2019,AP_TEE-AP-05-2019.json,AP,2019,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-05-2020,AP_TEE-AP-05-2020 incidental 19-06-2020.json,AP,2020,cumplida,,Otro / no identificado,Otro / no identificado,gemini
+TEE-AP-05-2020,AP_TEE-AP-05-2020.json,AP,2020,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-AP-05-2024,AP_TEE-AP-05-2024 Y ACUMULADO.json,AP,2024,no_detectado,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-AP-06-2017,AP_TEE-AP-06-2017.json,AP,2017,no_detectado,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-AP-06-2019,AP_TEE-AP-06-2019.json,AP,2019,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-06-2023,AP_TEE-AP-06-2023.json,AP,2023,revoca,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-06-2024,AP_TEE-AP-06-2024.json,AP,2024,confirma,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-AP-07-2017,AP_TEE-AP-07-2017.json,AP,2017,revoca,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-AP-07-2020,AP_TEE-AP-07-2020.json,AP,2020,no_detectado,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-AP-07-2023,AP_TEE-AP-07-2023.json,AP,2023,confirma,"Vida interna de partidos políticos, Fiscalización / Recursos públicos","Vida interna de partidos políticos, Fiscalización / Recursos públicos","Vida interna de partidos políticos, Fiscalización / Recursos públicos",gemini
+TEE-AP-07-2024,AP_TEE-AP-07-2024 Y SU ACUMULADO TEE-AP-08-2024.json,AP,2024,revoca,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-08-2019,AP_TEE-AP-08-2019.json,AP,2019,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-AP-08-2020,AP_TEE-AP-08-2020.json,AP,2020,sobresee,,Desistimiento,Otros temas identificados,gemini
+TEE-AP-08-2021,AP_TEE-AP-08-2021.json,AP,2021,desecha,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-AP-08-2023,AP_TEE-AP-08-2023.json,AP,2023,confirma,,"Acción afirmativa, Integración de órganos electorales",Otros temas identificados,gemini
+TEE-AP-09-2019,AP_TEE-AP-09-2019.json,AP,2019,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-AP-09-2020,AP_TEE-AP-09-2020.json,AP,2020,desecha,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-09-2023,AP_TEE-AP-09-2023.json,AP,2023,confirma,,Acción afirmativa,Otros temas identificados,gemini
+TEE-AP-09-2024,AP_TEE-AP-09-2024 Y SUS ACUMULADOS.json,AP,2024,revoca,,Acción afirmativa,Otros temas identificados,gemini
+TEE-AP-10-2017,AP_TEE-AP-10-2017.json,AP,2017,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-AP-10-2020,AP_TEE-AP-10-2020 Y ACUMULADOS.json,AP,2020,revoca,,Usos y costumbres indígenas,Otros temas identificados,regex
+TEE-AP-10-2023,AP_TEE-AP-10-2023.json,AP,2023,confirma,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-11-2017,AP_TEE-AP-11-2017.json,AP,2017,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-11-2021,AP_TEE-AP-11-2021.json,AP,2021,sobresee,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-AP-11-2023,AP_TEE-AP-11-2023.json,AP,2023,confirma,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-12-2017,AP_TEE-AP-12-2017.json,AP,2017,confirma,Paridad de género,Paridad de género,Paridad de género,gemini
+TEE-AP-12-2020,AP_TEE-AP-12-2020.json,AP,2020,confirma,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-AP-12-2021,AP_TEE-AP-12-2021 y acumulados.json,AP,2021,revoca,,"Registro y sustitución de candidaturas, Acción afirmativa",Otros temas identificados,gemini
+TEE-AP-12-2023,AP_TEE-AP-12-2023.json,AP,2023,confirma,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-AP-13-2017,AP_TEE-AP-13-2017.json,AP,2017,confirma,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-AP-13-2020,AP_TEE-AP-13-2020.json,AP,2020,desecha,Financiamiento y prerrogativas,"Financiamiento y prerrogativas, Desistimiento",Financiamiento y prerrogativas,gemini
+TEE-AP-13-2021,AP_TEE-AP-13-2021 y acumulados.json,AP,2021,confirma,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-AP-13-2023,AP_TEE-AP-13-2023.json,AP,2023,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-AP-14-2017,AP_TEE-AP-14-2017.json,AP,2017,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-14-2020,AP_TEE-AP-14-2020.json,AP,2020,confirma,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-AP-14-2023,AP_TEE-AP-14-2023.json,AP,2023,confirma,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-AP-15-2017,AP_TEE-AP-15-2017  y acumulado.json,AP,2017,revoca,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-AP-15-2020,AP_TEE-AP-15-2020 Y ACUMULADO.json,AP,2020,desecha,,Acción afirmativa,Otros temas identificados,gemini
+TEE-AP-15-2023,AP_TEE-AP-15-2023.json,AP,2023,confirma,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-16-2021,AP_TEE-AP-16-2021.json,AP,2021,desecha,,"Registro y sustitución de candidaturas, Acción afirmativa",Otros temas identificados,gemini
+TEE-AP-16-2024,AP_TEE-AP-16-2024 Y SUS ACUMULADOS.json,AP,2024,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-17-2017,AP_TEE-AP-17-2017.json,AP,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-AP-17-2020,AP_TEE-AP-17-2020 Y ACUMULADO TEE-AP-21-2020.json,AP,2020,sobresee,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-AP-17-2021,AP_TEE-AP-17-2021 Y ACUMULADO.json,AP,2021,confirma,Coalición electoral,"Coalición electoral, Recuento y nulidad de casilla",Coalición electoral,gemini
+TEE-AP-17-2024,AP_TEE-AP-17-2024 Y ACUMULADOS.json,AP,2024,desecha,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-AP-18-2017,AP_TEE-AP-18-2017.json,AP,2017,no_detectado,Coalición electoral,"Registro y sustitución de candidaturas, Coalición electoral",Coalición electoral,gemini
+TEE-AP-18-2020,AP_TEE-AP-18-2020.json,AP,2020,no_detectado,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-AP-19-2017,AP_TEE-AP-19-2017.json,AP,2017,desecha,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-AP-19-2021,AP_TEE-AP-19-2021.json,AP,2021,confirma,"Paridad de género, Coalición electoral","Paridad de género, Coalición electoral","Paridad de género, Coalición electoral",gemini
+TEE-AP-20-2017,AP_TEE-AP-20-2017.json,AP,2017,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-20-2021,AP_TEE-AP-20-2021 10 de junio.json,AP,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-AP-20-2021,AP_TEE-AP-20-2021.json,AP,2021,desecha,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-AP-21-2017,AP_TEE-AP-21-2017.json,AP,2017,no_detectado,,Otro / no identificado,Otro / no identificado,gemini
+TEE-AP-21-2021,AP_TEE-AP-21-2021.json,AP,2021,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-22-2017,AP_TEE-AP-22-2017.json,AP,2017,confirma,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-AP-22-2020,AP_TEE-AP-22-2020.json,AP,2020,revoca,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-AP-22-2021,AP_TEE-AP-22-2021.json,AP,2021,confirma,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-AP-23-2017,AP_TEE-AP-23-2017.json,AP,2017,no_detectado,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-23-2020,AP_TEE-AP-23-2020.json,AP,2020,no_detectado,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-AP-23-2021,AP_TEE-AP-23-2021.json,AP,2021,no_detectado,"Paridad de género, Coalición electoral","Paridad de género, Coalición electoral","Paridad de género, Coalición electoral",gemini
+TEE-AP-24-2017,AP_TEE-AP-24-2017.json,AP,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-AP-24-2020,AP_TEE-AP-24-2020 y su acumulado.json,AP,2020,modifica,,"Propaganda gubernamental, Procedimiento especial sancionador",Otros temas identificados,gemini
+TEE-AP-24-2021,AP_TEE-AP-24-2021.json,AP,2021,confirma,Paridad de género,Paridad de género,Paridad de género,gemini
+TEE-AP-25-2017,AP_TEE-AP-25-2017.json,AP,2017,no_detectado,,Procedimiento especial sancionador,Otros temas identificados,gemini
+TEE-AP-25-2021,AP_TEE-AP-25-2021.json,AP,2021,no_detectado,"Paridad de género, Coalición electoral","Paridad de género, Coalición electoral","Paridad de género, Coalición electoral",gemini
+TEE-AP-26-2017,AP_TEE-AP-26-2017 y acumulados.json,AP,2017,confirma,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-AP-26-2020,AP_TEE-AP-26-2020 Y ACUMULADOS.json,AP,2020,confirma,Paridad de género,Paridad de género,Paridad de género,gemini
+TEE-AP-26-2021,AP_TEE-AP-26-2021.json,AP,2021,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-27-2021,AP_TEE-AP-27-2021.json,AP,2021,confirma,,"Registro y sustitución de candidaturas, Acción afirmativa",Otros temas identificados,gemini
+TEE-AP-28-2021,AP_TEE-AP-28-2021.json,AP,2021,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-29-2021,AP_TEE-AP-29-2021.json,AP,2021,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-30-2020,AP_TEE-AP-30-2020.json,AP,2020,desecha,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-AP-30-2021,AP_TEE-AP-30-2021.json,AP,2021,confirma,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-AP-31-2021,AP_TEE-AP-31-2021.json,AP,2021,revoca,Paridad de género,"Registro y sustitución de candidaturas, Paridad de género",Paridad de género,gemini
+TEE-AP-32-2021,AP_TEE-AP-32-2021 Y ACUMULADO TEE-JDCN-72-2021.json,AP,2021,revoca,"Coalición electoral, Paridad de género","Registro y sustitución de candidaturas, Coalición electoral, Paridad de género","Coalición electoral, Paridad de género",gemini
+TEE-AP-34-2021,AP_TEE-AP-34-2021.json,AP,2021,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-35-2021,AP_TEE-AP-35-2021.json,AP,2021,no_detectado,,"Registro y sustitución de candidaturas, Desistimiento",Otros temas identificados,gemini
+TEE-AP-36-2021,AP_TEE-AP-36-2021.json,AP,2021,confirma,Fiscalización / Recursos públicos,"Fiscalización / Recursos públicos, Registro y sustitución de candidaturas",Fiscalización / Recursos públicos,gemini
+TEE-AP-37-2021,AP_TEE-AP-37-2021.json,AP,2021,confirma,Fiscalización / Recursos públicos,"Fiscalización / Recursos públicos, Registro y sustitución de candidaturas",Fiscalización / Recursos públicos,gemini
+TEE-AP-38-2021,AP_TEE-AP-38-2021.json,AP,2021,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-39-2021,AP_TEE-AP-39-2021.json,AP,2021,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-AP-41-2021,AP_TEE-AP-41-2021.json,AP,2021,desecha,,"Registro y sustitución de candidaturas, Desistimiento",Otros temas identificados,gemini
+TEE-AP-42-2021,AP_TEE-AP-42-2021.json,AP,2021,no_detectado,,"Acción afirmativa, Usos y costumbres indígenas",Otros temas identificados,gemini
+TEE-AP-43-2021,AP_TEE-AP-43-2021.json,AP,2021,modifica,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-AP-44-2021,AP_TEE-AP-44-2021 Y ACUMULADO.json,AP,2021,desecha,,"Acción afirmativa, Desistimiento",Otros temas identificados,gemini
+TEE-JDCN-11-2019,JDCN_INCIDENTAL TEE-JDCN-11-2019.json,JDCN,2019,cumplida,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+SC-E-JDCN-55-2014,JDCN_INCIDENTE DE EJECUCION DE LIQUIDACION SC-E-JDCN-55-2014.json,JDCN,2014,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-109-2021,JDCN_INCIDENTE DE INCUMPLIMIENTO DE SENTENCIA TEE-JDCN-109-2021 29-09-2022.json,JDCN,2022,no_detectado,"Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-06-2023,JDCN_INCIDENTE DE INEJECUCIÓN TEE-JDCN-06-2023.json,JDCN,2023,incumplida,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-15-2020,JDCN_INCIDENTE DE LIQUIDACION TEE-JDCN-15-2020.json,JDCN,2020,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-47-2021,JDCN_INCIDENTE DE LIQUIDACION TEE-JDCN-47-2021.json,JDCN,2021,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-101-2021,JDCN_INCIDENTE DE NULIDAD DE ACTUACIONES TEE-JDCN-101-2021.json,JDCN,2021,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-17-2021,JDCN_INCIDENTE TEE-JDCN-17-2021.json,JDCN,2021,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-81-2024,JDCN_Incidente TEE-JDCN-81-2024 y acumulado TEE-JDCN-83-2024.json,JDCN,2024,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-06-2025,JDCN_Incidente de Incompetencia del TEE-JDCN-06-2025.json,JDCN,2025,no_detectado,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-69-2024,JDCN_Incidente de Incumplimiento de Sentencia TEE-JDCN-69-2024 Y ACUMULADOS.json,JDCN,2024,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-81-2024,JDCN_Incidente de Incumplimiento de sentencia del TEE-JDCN-81-2024 Y ACUMULADO TEE-JDCN-83-2024.json,JDCN,2024,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-81-2021,JDCN_Incidente-de-sentencia-TEE-JDCN-81-2021-Proyecto-infundado.json,JDCN,2021,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-30-2025,JDCN_Resolución incidental de aclaración de sentencia del TEE-JDCN-30-2025.json,JDCN,2025,no_detectado,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-JDCN-06-2023,JDCN_Resolución incidental del TEE-JDCN-06-2023.json,JDCN,2023,parcialmente_cumplida,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-12-2023,JDCN_SENTENCIA INCIDENTAL TEE-JDCN-12-2023 07-08-2024.json,JDCN,2024,incumplida,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-12-2023,JDCN_SENTENCIA INCIDENTAL TEE-JDCN-12-2023 23-09-2024.json,JDCN,2024,cumplida,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-43-2024,JDCN_SENTENCIA INCIDENTAL TEE-JDCN-43-2024 19-07-2024.json,JDCN,2024,incumplida,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-AP-05-2023,JDCN_SENTENCIA TEE-AP-05-2023.json,JDCN,2023,confirma,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+JDCN_SENTENCIA TEE-JDCN-03-23 31-03-23,JDCN_SENTENCIA TEE-JDCN-03-23 31-03-23.json,JDCN,,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+JDCN_SENTENCIA TEE-JDCN-04-23 31-03-23,JDCN_SENTENCIA TEE-JDCN-04-23 31-03-23.json,JDCN,,sobresee,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-07-2024,JDCN_SENTENCIA TEE-JDCN-07-2024 01-04-2024.json,JDCN,2024,confirma,,Usos y costumbres indígenas,Otros temas identificados,gemini
+TEE-JDCN-15-2025,JDCN_SENTENCIA TEE-JDCN-15-2025 Y ACUMULADO.json,JDCN,2025,no_detectado,Paridad de género,Paridad de género,Paridad de género,gemini
+TEE-JDCN-16-2022,JDCN_SENTENCIA TEE-JDCN-16-2022.json,JDCN,2022,declara_fundado,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-22-2024,JDCN_SENTENCIA TEE-JDCN-22-2024 24-05-2024.json,JDCN,2024,confirma,Paridad de género,"Paridad de género, Registro y sustitución de candidaturas",Paridad de género,gemini
+TEE-JDCN-23-2024,JDCN_SENTENCIA TEE-JDCN-23-2024 20-05-2024.json,JDCN,2024,no_detectado,,"Registro y sustitución de candidaturas, Acción afirmativa",Otros temas identificados,gemini
+TEE-JDCN-24-2024,JDCN_SENTENCIA TEE-JDCN-24-2024 20-05-2024.json,JDCN,2024,sobresee,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-29-2024,JDCN_SENTENCIA TEE-JDCN-29-2024 22-05-2024.json,JDCN,2024,no_detectado,,"Registro y sustitución de candidaturas, Acción afirmativa",Otros temas identificados,gemini
+TEE-JDCN-42-2024,JDCN_SENTENCIA TEE-JDCN-42-2024 22-05-2024.json,JDCN,2024,declara_fundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-43-2024,JDCN_SENTENCIA TEE-JDCN-43-2024 01-06-2024.json,JDCN,2024,desecha,"Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos","Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos","Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos",gemini
+TEE-JDCN-46-2024,JDCN_SENTENCIA TEE-JDCN-46-2024 Y ACUMULADO 04-07-2024.json,JDCN,2024,sobresee,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-50-2024,JDCN_SENTENCIA TEE-JDCN-50-2024 Y ACUMULADOS 22-06-2024.json,JDCN,2024,modifica,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-51-2024,JDCN_SENTENCIA TEE-JDCN-51-2024 Y ACUMULADOS 26-07-2024.json,JDCN,2024,confirma,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-60-2024,JDCN_SENTENCIA TEE-JDCN-60-2024 29-07-2024.json,JDCN,2024,confirma,Paridad de género,Paridad de género,Paridad de género,gemini
+TEE-JDCN-61-2024,JDCN_SENTENCIA TEE-JDCN-61-2024 Y ACUMULADO 04-07-2024.json,JDCN,2024,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-64-2024,JDCN_SENTENCIA TEE-JDCN-64-2024 30-06-2024.json,JDCN,2024,confirma,Paridad de género,"Paridad de género, Registro y sustitución de candidaturas",Paridad de género,gemini
+TEE-JDCN-66-2024,JDCN_SENTENCIA TEE-JDCN-66-2024 02-07-2024.json,JDCN,2024,confirma,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-67-2024,JDCN_SENTENCIA TEE-JDCN-67-2024 09-07-2024.json,JDCN,2024,confirma,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-75-2024,JDCN_SENTENCIA TEE-JDCN-75-2024 Y ACUMULADOS 26-07-2024.json,JDCN,2024,confirma,Nulidad de elección,"Recuento y nulidad de casilla, Nulidad de elección",Nulidad de elección,gemini
+TEE-JDCN-29-2025,JDCN_SENTENCIA Y VOTO PARTICULAR DEL EXPEDIENTE TEE-JDCN-29-2025.json,JDCN,2025,revoca,Paridad de género,"Paridad de género, Integración de órganos electorales",Paridad de género,gemini
+TEE-JDCN-06-2023,JDCN_Sentencia TEE-JDCN-06-2023.json,JDCN,2023,declara_fundado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-15-2023,JDCN_Sentencia TEE-JDCN-14-23 Y ACUMULADO TEE-JDCN-15-2023.json,JDCN,2023,desecha,Paridad de género,Paridad de género,Paridad de género,gemini
+TEE-JDCN-16-2022,JDCN_Sentencia TEE-JDCN-16-2022 25-05-23 version publica.json,JDCN,2022,declara_fundado,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-25-2025,JDCN_Sentencia TEE-JDCN-25-2025.json,JDCN,2025,revoca,Paridad de género,"Paridad de género, Registro y sustitución de candidaturas",Paridad de género,gemini
+TEE-JDCN-30-2025,JDCN_Sentencia TEE-JDCN-30-2025.json,JDCN,2025,revoca,Derecho a ser votado / ejercicio del cargo,"Integración de órganos electorales, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-32-2025,JDCN_Sentencia TEE-JDCN-32-2025.json,JDCN,2025,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-34-2025,JDCN_Sentencia del TEE-JDCN-34-2025 del 19-12-2025.json,JDCN,2025,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-35-2025,JDCN_Sentencia del TEE-JDCN-35-2025 del 19-12-2025.json,JDCN,2025,confirma,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-01-2017,JDCN_TEE-JDCN-01-2017.json,JDCN,2017,sobresee,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-JDCN-01-2018,JDCN_TEE-JDCN-01-2018.json,JDCN,2018,desecha,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-01-2020,JDCN_TEE-JDCN-01-2020.json,JDCN,2020,declara_fundado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-01-2021,JDCN_TEE-JDCN-01-2021.json,JDCN,2021,declara_infundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-01-2022,JDCN_TEE-JDCN-01-2022.json,JDCN,2022,confirma,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-01-2023,JDCN_TEE-JDCN-01-2023 SENTENCIA.json,JDCN,2023,revoca,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-01-2023,JDCN_TEE-JDCN-01-2023.json,JDCN,2023,declara_fundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-01-2024,JDCN_TEE-JDCN-01-2024.json,JDCN,2024,no_detectado,,Otro / no identificado,Otro / no identificado,gemini
+TEE-JDCN-01-2025,JDCN_TEE-JDCN-01-2025.json,JDCN,2025,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-02-2017,JDCN_TEE-JDCN-02-2017.json,JDCN,2017,modifica,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-02-2018,JDCN_TEE-JDCN-02-2018.json,JDCN,2018,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-02-2019,JDCN_TEE-JDCN-02-2019.json,JDCN,2019,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-02-2020,JDCN_TEE-JDCN-02-2020.json,JDCN,2020,declara_fundado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-02-2021,JDCN_TEE-JDCN-02-2021.json,JDCN,2021,no_detectado,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-JDCN-02-2022,JDCN_TEE-JDCN-02-2022.json,JDCN,2022,confirma,Derecho a ser votado / ejercicio del cargo,"Integración de órganos electorales, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-02-2024,JDCN_TEE-JDCN-02-2024.json,JDCN,2024,confirma,,"Acción afirmativa, Usos y costumbres indígenas",Otros temas identificados,gemini
+TEE-JDCN-02-2025,JDCN_TEE-JDCN-02-2025.json,JDCN,2025,desecha,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+JDCN_TEE-JDCN-02-23 - 31-03-23,JDCN_TEE-JDCN-02-23 - 31-03-23.json,JDCN,,revoca,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-03-2017,JDCN_TEE-JDCN-03-2017.json,JDCN,2017,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-03-2018,JDCN_TEE-JDCN-03-2018.json,JDCN,2018,sobresee,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-03-2019,JDCN_TEE-JDCN-03-2019.json,JDCN,2019,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-03-2020,JDCN_TEE-JDCN-03-2020.json,JDCN,2020,declara_fundado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-03-2022,JDCN_TEE-JDCN-03-2022.json,JDCN,2022,desecha,Remuneraciones y dietas de cargos públicos,"Remuneraciones y dietas de cargos públicos, Desistimiento",Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-03-2024,JDCN_TEE-JDCN-03-2024 SENTENCIA 02-03-2024.json,JDCN,2024,no_detectado,,Reelección,Otros temas identificados,gemini
+TEE-JDCN-03-2024,JDCN_TEE-JDCN-03-2024.json,JDCN,2024,no_detectado,Derecho a ser votado / ejercicio del cargo,"Reelección, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-03-2025,JDCN_TEE-JDCN-03-2025.json,JDCN,2025,desecha,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-JDCN-04-2017,JDCN_TEE-JDCN-04-2017 Cumplimiento.json,JDCN,2017,declara_fundado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-04-2017,JDCN_TEE-JDCN-04-2017.json,JDCN,2017,declara_fundado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-04-2018,JDCN_TEE-JDCN-04-2018.json,JDCN,2018,no_detectado,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-04-2019,JDCN_TEE-JDCN-04-2019 SENTENCIA INCIDENTAL.json,JDCN,2019,no_detectado,,Usos y costumbres indígenas,Otros temas identificados,gemini
+TEE-JDCN-04-2019,JDCN_TEE-JDCN-04-2019.json,JDCN,2019,declara_fundado,,Usos y costumbres indígenas,Otros temas identificados,gemini
+TEE-JDCN-04-2020,JDCN_TEE-JDCN-04-2020.json,JDCN,2020,declara_fundado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-04-2022,JDCN_TEE-JDCN-04-2022 Y ACUMULADOS.json,JDCN,2022,desecha,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-04-2024,JDCN_TEE-JDCN-04-2024.json,JDCN,2024,confirma,Paridad de género,"Acción afirmativa, Paridad de género, Usos y costumbres indígenas",Paridad de género,gemini
+TEE-JDCN-04-2025,JDCN_TEE-JDCN-04-2025.json,JDCN,2025,revoca,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-05-2017,JDCN_TEE-JDCN-05-2017 incidental 26-11-2019.json,JDCN,2019,incumplida,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-05-2017,JDCN_TEE-JDCN-05-2017.json,JDCN,2017,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-05-2018,JDCN_TEE-JDCN-05-2018.json,JDCN,2018,desecha,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-05-2020,JDCN_TEE-JDCN-05-2020.json,JDCN,2020,declara_fundado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-05-2023,JDCN_TEE-JDCN-05-2023-Resolucion.json,JDCN,2023,revoca,Fiscalización / Recursos públicos,"Fiscalización / Recursos públicos, Registro y sustitución de candidaturas",Fiscalización / Recursos públicos,gemini
+TEE-JDCN-05-2025,JDCN_TEE-JDCN-05-2025.json,JDCN,2025,declara_infundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-06-2017,JDCN_TEE-JDCN-06-2017.json,JDCN,2017,declara_infundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-06-2018,JDCN_TEE-JDCN-06-2018 18-12-19.json,JDCN,2018,modifica,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-06-2018,JDCN_TEE-JDCN-06-2018.json,JDCN,2018,desecha,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-06-2020,JDCN_TEE-JDCN-06-2020.json,JDCN,2020,desecha,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-06-2023,JDCN_TEE-JDCN-06-2023 RESOLUCION.json,JDCN,2023,declara_fundado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-06-2023,JDCN_TEE-JDCN-06-2023-Incidente-de-ejecucion-de-sentencia.json,JDCN,2023,parcialmente_cumplida,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-06-2024,JDCN_TEE-JDCN-06-2024.json,JDCN,2024,declara_infundado,,Acción afirmativa,Otros temas identificados,gemini
+TEE-JDCN-06-2025,JDCN_TEE-JDCN-06-2025 Incidente de aclaración de sentencia.json,JDCN,2025,no_detectado,,Otro / no identificado,Otro / no identificado,gemini
+TEE-JDCN-06-2025,JDCN_TEE-JDCN-06-2025.json,JDCN,2025,modifica,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-07-2017,JDCN_TEE-JDCN-07-2017.json,JDCN,2017,modifica,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-07-2018,JDCN_TEE-JDCN-07-2018.json,JDCN,2018,revoca,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-07-2019,JDCN_TEE-JDCN-07-2019.json,JDCN,2019,no_detectado,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-07-2020,JDCN_TEE-JDCN-07-2020.json,JDCN,2020,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-07-2021,JDCN_TEE-JDCN-07-2021 y acumulados.json,JDCN,2021,revoca,,Reelección,Otros temas identificados,gemini
+TEE-JDCN-07-2023,JDCN_TEE-JDCN-07-2023 RESOLUCION.json,JDCN,2023,modifica,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-07-2025,JDCN_TEE-JDCN-07-2025.json,JDCN,2025,desecha,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-08-2017,JDCN_TEE-JDCN-08-2017.json,JDCN,2017,confirma,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-08-2018,JDCN_TEE-JDCN-08-2018.json,JDCN,2018,declara_fundado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-08-2019,JDCN_TEE-JDCN-08-2019.json,JDCN,2019,revoca,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-08-2020,JDCN_TEE-JDCN-08-2020.json,JDCN,2020,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-08-2021,JDCN_TEE-JDCN-08-2021 Y ACUMULADOS.json,JDCN,2021,modifica,Derecho a ser votado / ejercicio del cargo,"Derecho a ser votado / ejercicio del cargo, Integración de órganos electorales",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-08-2025,JDCN_TEE-JDCN-08-2025 Y ACUMULADO TEE-JDCN-12-2025.json,JDCN,2025,no_detectado,"Derecho a ser votado / ejercicio del cargo, Paridad de género","Derecho a ser votado / ejercicio del cargo, Paridad de género","Derecho a ser votado / ejercicio del cargo, Paridad de género",gemini
+TEE-JDCN-09-2017,JDCN_TEE-JDCN-09-2017.json,JDCN,2017,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-09-2018,JDCN_TEE-JDCN-09-2018.json,JDCN,2018,declara_fundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-09-2019,JDCN_TEE-JDCN-09-2019.json,JDCN,2019,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-09-2020,JDCN_TEE-JDCN-09-2020 Y ACUMULADOS.json,JDCN,2020,revoca,,Usos y costumbres indígenas,Otros temas identificados,regex
+TEE-JDCN-09-2021,JDCN_TEE-JDCN-09-2021.json,JDCN,2021,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-09-2023,JDCN_TEE-JDCN-09-2023.json,JDCN,2023,desecha,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-09-2024,JDCN_TEE-JDCN-09-2024.json,JDCN,2024,desecha,,Usos y costumbres indígenas,Otros temas identificados,gemini
+TEE-JDCN-09-2025,JDCN_TEE-JDCN-09-2025.json,JDCN,2025,revoca,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-10-2017,JDCN_TEE-JDCN-10-2017.json,JDCN,2017,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-10-2018,JDCN_TEE-JDCN-10-2018 y acumulados.json,JDCN,2018,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-10-2019,JDCN_TEE-JDCN-10-2019.json,JDCN,2019,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-10-2023,JDCN_TEE-JDCN-10-2023.json,JDCN,2023,sobresee,,Acción afirmativa,Otros temas identificados,gemini
+TEE-JDCN-10-2024,JDCN_TEE-JDCN-10-2024.json,JDCN,2024,desecha,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-10-2025,JDCN_TEE-JDCN-10-2025.json,JDCN,2025,declara_infundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-100-2021,JDCN_TEE-JDCN-100-2021.json,JDCN,2021,declara_fundado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-101-2021,JDCN_TEE-JDCN-101-2021 INCIDENTE DE INCUMPLIMIENTO.json,JDCN,2021,parcialmente_cumplida,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-101-2021,JDCN_TEE-JDCN-101-2021 incidental 01-12-2022.json,JDCN,2022,cumplida,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-101-2021,JDCN_TEE-JDCN-101-2021.json,JDCN,2021,declara_fundado,"Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos","Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos","Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos",gemini
+TEE-JDCN-102-2021,JDCN_TEE-JDCN-102-2021 Y ACUMULADOS.json,JDCN,2021,desecha,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-106-2021,JDCN_TEE-JDCN-106-2021-crg-revoca.json,JDCN,2021,revoca,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-JDCN-106-2021,JDCN_TEE-JDCN-106-2021.json,JDCN,2021,revoca,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-JDCN-107-2021,JDCN_TEE-JDCN-107-2021.json,JDCN,2021,declara_infundado,"Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-108-2021,JDCN_TEE-JDCN-108-2021 Y ACUMULADOS.json,JDCN,2021,modifica,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-108-2021,JDCN_TEE-JDCN-108-2021.json,JDCN,2021,desecha,Derecho a ser votado / ejercicio del cargo,"Derecho a ser votado / ejercicio del cargo, Integración de órganos electorales",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-109-2021,JDCN_TEE-JDCN-109-2021 y acumulado TEE-JDCN-110-2021.json,JDCN,2021,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-11-2017,JDCN_TEE-JDCN-11-2017.json,JDCN,2017,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-11-2019,JDCN_TEE-JDCN-11-2019 17-03-2020.json,JDCN,2020,revoca,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-11-2019,JDCN_TEE-JDCN-11-2019.json,JDCN,2019,sobresee,"Vida interna de partidos políticos, Derecho a ser votado / ejercicio del cargo","Vida interna de partidos políticos, Derecho a ser votado / ejercicio del cargo","Vida interna de partidos políticos, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-11-2023,JDCN_TEE-JDCN-11-2023.json,JDCN,2023,revoca,Paridad de género,"Paridad de género, Acción afirmativa, Usos y costumbres indígenas",Paridad de género,gemini
+TEE-JDCN-11-2024,JDCN_TEE-JDCN-11-2024.json,JDCN,2024,confirma,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-JDCN-11-2025,JDCN_TEE-JDCN-11-2025.json,JDCN,2025,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-111-2021,JDCN_TEE-JDCN-111-2021.json,JDCN,2021,confirma,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-112-2021,JDCN_TEE-JDCN-112-2021.json,JDCN,2021,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-115-2021,JDCN_TEE-JDCN-115-2021.json,JDCN,2021,confirma,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-116-2021,JDCN_TEE-JDCN-116-2021.json,JDCN,2021,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-117-2021,JDCN_TEE-JDCN-117-2021 y acumulados.json,JDCN,2021,confirma,,"Acción afirmativa, Registro y sustitución de candidaturas",Otros temas identificados,gemini
+TEE-JDCN-118-2021,JDCN_TEE-JDCN-118-2021.json,JDCN,2021,declara_improcedente,Nulidad de elección,Nulidad de elección,Nulidad de elección,gemini
+TEE-JDCN-12-2017,JDCN_TEE-JDCN-12-2017.json,JDCN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-12-2018,JDCN_TEE-JDCN-12-2018 y acumulado.json,JDCN,2018,revoca,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-12-2019,JDCN_TEE-JDCN-12-2019 INCIDENTE DE ACLARACION.json,JDCN,2019,no_detectado,,"Acción afirmativa, Usos y costumbres indígenas",Otros temas identificados,gemini
+TEE-JDCN-12-2019,JDCN_TEE-JDCN-12-2019.json,JDCN,2019,revoca,,Acción afirmativa,Otros temas identificados,gemini
+TEE-JDCN-12-2023,JDCN_TEE-JDCN-12-2023 21-03-2024 SENTENCIA.json,JDCN,2024,declara_fundado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-12-2024,JDCN_TEE-JDCN-12-2024 Y ACUMULADOS.json,JDCN,2024,no_detectado,Derecho a ser votado / ejercicio del cargo,"Reelección, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-120-2021,JDCN_TEE-JDCN-120-2021.json,JDCN,2021,confirma,Nulidad de elección,"Integración de órganos electorales, Nulidad de elección",Nulidad de elección,gemini
+TEE-JDCN-121-2021,JDCN_TEE-JDCN-121-2021.json,JDCN,2021,declara_fundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-122-2021,JDCN_TEE-JDCN-122-2021.json,JDCN,2021,confirma,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-JDCN-13-2017,JDCN_TEE-JDCN-13-2017.json,JDCN,2017,revoca,,Reelección,Otros temas identificados,gemini
+TEE-JDCN-13-2019,JDCN_TEE-JDCN-13-2019 14-02-2020.json,JDCN,2020,desecha,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-13-2019,JDCN_TEE-JDCN-13-2019.json,JDCN,2019,desecha,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-13-2021,JDCN_TEE-JDCN-13-2021 y su acumulado.json,JDCN,2021,no_detectado,,Reelección,Otros temas identificados,gemini
+TEE-JDCN-13-2022,JDCN_TEE-JDCN-13-2022.json,JDCN,2022,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-13-2023,JDCN_TEE-JDCN-13-2023.json,JDCN,2023,revoca,,Acción afirmativa,Otros temas identificados,gemini
+TEE-JDCN-13-2025,JDCN_TEE-JDCN-13-2025 Y ACUMULADOS .json,JDCN,2025,no_detectado,"Paridad de género, Derecho a ser votado / ejercicio del cargo","Paridad de género, Derecho a ser votado / ejercicio del cargo","Paridad de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-14-2017,JDCN_TEE-JDCN-14-2017.json,JDCN,2017,revoca,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-14-2019,JDCN_TEE-JDCN-14-2019.json,JDCN,2019,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-14-2020,JDCN_TEE-JDCN-14-2020.json,JDCN,2020,desecha,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-14-2022,JDCN_TEE-JDCN-14-2022.json,JDCN,2022,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-15-2017,JDCN_TEE-JDCN-15-2017.json,JDCN,2017,revoca,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-15-2019,JDCN_TEE-JDCN-15-2019 y Acumulado-Incidente.json,JDCN,2019,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-15-2019,JDCN_TEE-JDCN-15-2019 y acumulado.json,JDCN,2019,confirma,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-15-2020,JDCN_TEE-JDCN-15-2020 INCIDENTE DE LIQUIDACION.json,JDCN,2020,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-15-2020,JDCN_TEE-JDCN-15-2020-Incidente.json,JDCN,2020,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-15-2020,JDCN_TEE-JDCN-15-2020.json,JDCN,2020,declara_fundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-15-2021,JDCN_TEE-JDCN-15-2021.json,JDCN,2021,sobresee,Vida interna de partidos políticos,"Registro y sustitución de candidaturas, Vida interna de partidos políticos",Vida interna de partidos políticos,gemini
+TEE-JDCN-15-2022,JDCN_TEE-JDCN-15-2022.json,JDCN,2022,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-16-2017,JDCN_TEE-JDCN-16-2017.json,JDCN,2017,revoca,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-16-2019,JDCN_TEE-JDCN-16-2019-Incidente .json,JDCN,2019,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-16-2019,JDCN_TEE-JDCN-16-2019.json,JDCN,2019,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-16-2020,JDCN_TEE-JDCN-16-2020.json,JDCN,2020,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-16-2021,JDCN_TEE-JDCN-16-2021.json,JDCN,2021,declara_improcedente,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-16-2022,JDCN_TEE-JDCN-16-2022 19-12-2022 VERSION PUBLICA.json,JDCN,2022,declara_fundado,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-16-2022,JDCN_TEE-JDCN-16-2022.json,JDCN,2022,declara_fundado,"Violencia política de género, Remuneraciones y dietas de cargos públicos","Violencia política de género, Remuneraciones y dietas de cargos públicos","Violencia política de género, Remuneraciones y dietas de cargos públicos",gemini
+TEE-JDCN-16-2024,JDCN_TEE-JDCN-16-2024 SENTENCIA.json,JDCN,2024,no_detectado,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-17-2017,JDCN_TEE-JDCN-17-2017.json,JDCN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-17-2019,JDCN_TEE-JDCN-17-2019.json,JDCN,2019,desecha,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+JDCN_TEE-JDCN-17-2020 Y ACUMULADOS,JDCN_TEE-JDCN-17-2020 Y ACUMULADOS.json,JDCN,,revoca,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-17-2021,JDCN_TEE-JDCN-17-2021 INCIDENTE 19-08-2021.json,JDCN,2021,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-17-2021,JDCN_TEE-JDCN-17-2021 Incidente de incumplimiento.json,JDCN,2021,no_detectado,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-17-2021,JDCN_TEE-JDCN-17-2021.json,JDCN,2021,revoca,"Vida interna de partidos políticos, Derecho a ser votado / ejercicio del cargo","Vida interna de partidos políticos, Derecho a ser votado / ejercicio del cargo","Vida interna de partidos políticos, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-17-2022,JDCN_TEE-JDCN-17-2022.json,JDCN,2022,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-17-2024,JDCN_TEE-JDCN-17-2024.json,JDCN,2024,desecha,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-18-2017,JDCN_TEE-JDCN-18-2017.json,JDCN,2017,revoca,Paridad de género,"Registro y sustitución de candidaturas, Paridad de género",Paridad de género,gemini
+TEE-JDCN-18-2019,JDCN_TEE-JDCN-18-2019.json,JDCN,2019,declara_infundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-18-2021,JDCN_TEE-JDCN-18-2021.json,JDCN,2021,no_detectado,"Coalición electoral, Derecho a ser votado / ejercicio del cargo","Coalición electoral, Derecho a ser votado / ejercicio del cargo","Coalición electoral, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-18-2022,JDCN_TEE-JDCN-18-2022.json,JDCN,2022,declara_fundado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-18-2024,JDCN_TEE-JDCN-18-2024 Y SU ACUMULADO TEE-JDCN-19-2024.json,JDCN,2024,declara_fundado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-19-2017,JDCN_TEE-JDCN-19-2017.json,JDCN,2017,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-19-2021,JDCN_TEE-JDCN-19-2021.json,JDCN,2021,sobresee,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-19-2022,JDCN_TEE-JDCN-19-2022.json,JDCN,2022,declara_fundado,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+JDCN_TEE-JDCN-20 DEL 2022 Y SU ACUMULADO,JDCN_TEE-JDCN-20 DEL 2022 Y SU ACUMULADO.json,JDCN,2022,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-20-2017,JDCN_TEE-JDCN-20-2017.json,JDCN,2017,revoca,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-20-2021,JDCN_TEE-JDCN-20-2021.json,JDCN,2021,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-20-2024,JDCN_TEE-JDCN-20-2024 SENTENCIA 17-04-2024.json,JDCN,2024,desecha,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-21-2017,JDCN_TEE-JDCN-21-2017.json,JDCN,2017,revoca,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-21-2021,JDCN_TEE-JDCN-21-2021.json,JDCN,2021,sobresee,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-21-2024,JDCN_TEE-JDCN-21-2024 SENTENCIA 17-04-2024.json,JDCN,2024,declara_fundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-22-2017,JDCN_TEE-JDCN-22-2017.json,JDCN,2017,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-22-2021,JDCN_TEE-JDCN-22-2021.json,JDCN,2021,no_detectado,"Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos","Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos","Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos",gemini
+TEE-JDCN-22-2022,JDCN_TEE-JDCN-22-2022.json,JDCN,2022,revoca,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-23-2017,JDCN_TEE-JDCN-23-2017.json,JDCN,2017,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-23-2020,JDCN_TEE-JDCN-23-2020 INCIDENTE 19-08-2021.json,JDCN,2021,incumplida,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-23-2020,JDCN_TEE-JDCN-23-2020.json,JDCN,2020,declara_fundado,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-23-2021,JDCN_TEE-JDCN-23-2021.json,JDCN,2021,no_detectado,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-23-2022,JDCN_TEE-JDCN-23-2022 VERSION PUBLICA.json,JDCN,2022,no_detectado,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-23-2025,JDCN_TEE-JDCN-23-2025.json,JDCN,2025,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-24-2017,JDCN_TEE-JDCN-24-2017.json,JDCN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-24-2020,JDCN_TEE-JDCN-24-2020.json,JDCN,2020,revoca,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-24-2021,JDCN_TEE-JDCN-24-2021.json,JDCN,2021,sobresee,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-24-2022,JDCN_TEE-JDCN-24-2022 Incidental 01-12-2022.json,JDCN,2022,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-24-2022,JDCN_TEE-JDCN-24-2022.json,JDCN,2022,declara_improcedente,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-24-2025,JDCN_TEE-JDCN-24-2025.json,JDCN,2025,revoca,Paridad de género,"Paridad de género, Registro y sustitución de candidaturas",Paridad de género,gemini
+TEE-JDCN-25-2017,JDCN_TEE-JDCN-25-2017.json,JDCN,2017,revoca,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-25-2022,JDCN_TEE-JDCN-25-2022 Y ACUMULADOS.json,JDCN,2022,declara_fundado,"Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-25-2024,JDCN_TEE-JDCN-25-2024.json,JDCN,2024,sobresee,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-26-2017,JDCN_TEE-JDCN-26-2017.json,JDCN,2017,revoca,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-26-2021,JDCN_TEE-JDCN-26-2021.json,JDCN,2021,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-26-2024,JDCN_TEE-JDCN-26-2024.json,JDCN,2024,desecha,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-26-2025,JDCN_TEE-JDCN-26-2025.json,JDCN,2025,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-27-2017,JDCN_TEE-JDCN-27-2017.json,JDCN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-27-2021,JDCN_TEE-JDCN-27-2021.json,JDCN,2021,desecha,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-JDCN-27-2025,JDCN_TEE-JDCN-27-2025 Y ACUMULADO TEE-JDCN-28-2025.json,JDCN,2025,desecha,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-28-2017,JDCN_TEE-JDCN-28-2017.json,JDCN,2017,revoca,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-28-2021,JDCN_TEE-JDCN-28-2021 Y ACUMULADO TEE-JDCN-40-2021.json,JDCN,2021,declara_fundado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-28-2022,JDCN_TEE-JDCN-28-2022.json,JDCN,2022,revoca,,Otro / no identificado,Otro / no identificado,regex
+TEE-JDCN-29-2017,JDCN_TEE-JDCN-29-2017.json,JDCN,2017,revoca,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-29-2021,JDCN_TEE-JDCN-29-2021.json,JDCN,2021,sobresee,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-29-2022,JDCN_TEE-JDCN-29-2022.json,JDCN,2022,desecha,"Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-30-2017,JDCN_TEE-JDCN-30-2017.json,JDCN,2017,revoca,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-30-2021,JDCN_TEE-JDCN-30-2021  Y ACUMULADOS.json,JDCN,2021,confirma,Vida interna de partidos políticos,"Registro y sustitución de candidaturas, Vida interna de partidos políticos",Vida interna de partidos políticos,gemini
+TEE-JDCN-30-2022,JDCN_TEE-JDCN-30-2022.json,JDCN,2022,revoca,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-31-2017,JDCN_TEE-JDCN-31-2017.json,JDCN,2017,revoca,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-31-2025,JDCN_TEE-JDCN-31-2025-Voto-Razonado.json,JDCN,2025,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-31-2025,JDCN_TEE-JDCN-31-2025.json,JDCN,2025,desecha,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-32-2017,JDCN_TEE-JDCN-32-2017.json,JDCN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-33-2017,JDCN_TEE-JDCN-33-2017.json,JDCN,2017,no_detectado,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-JDCN-34-2017,JDCN_TEE-JDCN-34-2017.json,JDCN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-34-2021,JDCN_TEE-JDCN-34-2021.json,JDCN,2021,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-35-2017,JDCN_TEE-JDCN-35-2017.json,JDCN,2017,desecha,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-35-2021,JDCN_TEE-JDCN-35-2021.json,JDCN,2021,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-36-2017,JDCN_TEE-JDCN-36-2017.json,JDCN,2017,no_detectado,Vida interna de partidos políticos,"Vida interna de partidos políticos, Desistimiento",Vida interna de partidos políticos,gemini
+TEE-JDCN-36-2021,JDCN_TEE-JDCN-36-2021 Y ACUMULADO TEE-JDCN-39-2021.json,JDCN,2021,revoca,,"Reelección, Registro y sustitución de candidaturas",Otros temas identificados,gemini
+TEE-JDCN-37-2017,JDCN_TEE-JDCN-37-2017.json,JDCN,2017,desecha,,"Registro y sustitución de candidaturas, Desistimiento",Otros temas identificados,gemini
+TEE-JDCN-37-2021,JDCN_TEE-JDCN-37-2021.json,JDCN,2021,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-38-2017,JDCN_TEE-JDCN-38-2017.json,JDCN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-38-2021,JDCN_TEE-JDCN-38-2021.json,JDCN,2021,confirma,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+JDCN_TEE-JDCN-39 y acumulados,JDCN_TEE-JDCN-39 y acumulados.json,JDCN,,revoca,,Candidaturas independientes,Otros temas identificados,gemini
+TEE-JDCN-41-2021,JDCN_TEE-JDCN-41-2021.json,JDCN,2021,sobresee,,"Registro y sustitución de candidaturas, Desistimiento",Otros temas identificados,gemini
+TEE-JDCN-42-2017,JDCN_TEE-JDCN-42-2017.json,JDCN,2017,desecha,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-42-2021,JDCN_TEE-JDCN-42-2021.json,JDCN,2021,modifica,,"Acción afirmativa, Registro y sustitución de candidaturas",Otros temas identificados,gemini
+TEE-JDCN-43-2017,JDCN_TEE-JDCN-43-2017.json,JDCN,2017,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-43-2021,JDCN_TEE-JDCN-43-2021.json,JDCN,2021,confirma,Vida interna de partidos políticos,"Vida interna de partidos políticos, Registro y sustitución de candidaturas",Vida interna de partidos políticos,gemini
+TEE-JDCN-43-2024,JDCN_TEE-JDCN-43-2024 01-06-2024.json,JDCN,2024,desecha,"Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos","Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos","Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos",gemini
+TEE-JDCN-44-2017,JDCN_TEE-JDCN-44-2017.json,JDCN,2017,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-44-2021,JDCN_TEE-JDCN-44-2021 Y ACUMULADO.json,JDCN,2021,desecha,,"Registro y sustitución de candidaturas, Desistimiento",Otros temas identificados,gemini
+JDCN_TEE-JDCN-44-2024,JDCN_TEE-JDCN-44-2024.json,JDCN,,desecha,"Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos","Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos","Derecho a ser votado / ejercicio del cargo, Remuneraciones y dietas de cargos públicos",gemini
+TEE-JDCN-45-2017,JDCN_TEE-JDCN-45-2017.json,JDCN,2017,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-45-2024,JDCN_TEE-JDCN-45-2024.json,JDCN,2024,no_detectado,,"Registro y sustitución de candidaturas, Usos y costumbres indígenas",Otros temas identificados,gemini
+TEE-JDCN-46-2017,JDCN_TEE-JDCN-46-2017.json,JDCN,2017,no_detectado,Fiscalización / Recursos públicos,"Fiscalización / Recursos públicos, Registro y sustitución de candidaturas",Fiscalización / Recursos públicos,gemini
+TEE-JDCN-46-2021,JDCN_TEE-JDCN-46-2021.json,JDCN,2021,confirma,Paridad de género,"Paridad de género, Registro y sustitución de candidaturas",Paridad de género,gemini
+TEE-JDCN-47-2017,JDCN_TEE-JDCN-47-2017.json,JDCN,2017,no_detectado,Fiscalización / Recursos públicos,"Fiscalización / Recursos públicos, Registro y sustitución de candidaturas",Fiscalización / Recursos públicos,gemini
+TEE-JDCN-47-2021,JDCN_TEE-JDCN-47-2021 INCIDENTE DE LIQUIDACION.json,JDCN,2021,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-47-2021,JDCN_TEE-JDCN-47-2021.json,JDCN,2021,no_detectado,"Violencia política de género, Remuneraciones y dietas de cargos públicos","Violencia política de género, Remuneraciones y dietas de cargos públicos","Violencia política de género, Remuneraciones y dietas de cargos públicos",gemini
+TEE-JDCN-48-2017,JDCN_TEE-JDCN-48-2017.json,JDCN,2017,no_detectado,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-JDCN-48-2021,JDCN_TEE-JDCN-48-2021.json,JDCN,2021,no_detectado,,"Acción afirmativa, Registro y sustitución de candidaturas",Otros temas identificados,gemini
+JDCN_TEE-JDCN-48-2024,JDCN_TEE-JDCN-48-2024.json,JDCN,,confirma,Violencia política de género,"Integración de órganos electorales, Violencia política de género",Violencia política de género,gemini
+TEE-JDCN-49-2017,JDCN_TEE-JDCN-49-2017.json,JDCN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-49-2021,JDCN_TEE-JDCN-49-2021.json,JDCN,2021,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-49-2024,JDCN_TEE-JDCN-49-2024 Y ACUMULADOS.json,JDCN,2024,confirma,Paridad de género,"Paridad de género, Registro y sustitución de candidaturas",Paridad de género,gemini
+TEE-JDCN-50-2017,JDCN_TEE-JDCN-50-2017.json,JDCN,2017,no_detectado,,"Recuento y nulidad de casilla, Registro y sustitución de candidaturas",Otros temas identificados,gemini
+TEE-JDCN-50-2021,JDCN_TEE-JDCN-50-2021 Y ACUMULADOS.json,JDCN,2021,confirma,Coalición electoral,"Registro y sustitución de candidaturas, Coalición electoral",Coalición electoral,gemini
+TEE-JDCN-51-2017,JDCN_TEE-JDCN-51-2017.json,JDCN,2017,desecha,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-53-2017,JDCN_TEE-JDCN-53-2017.json,JDCN,2017,no_detectado,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-JDCN-56-2021,JDCN_TEE-JDCN-56-2021.json,JDCN,2021,desecha,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-57-2021,JDCN_TEE-JDCN-57-2021 Y ACUMULADO.json,JDCN,2021,revoca,Vida interna de partidos políticos,"Vida interna de partidos políticos, Registro y sustitución de candidaturas",Vida interna de partidos políticos,gemini
+TEE-JDCN-59-2021,JDCN_TEE-JDCN-59-2021.json,JDCN,2021,no_detectado,,"Acción afirmativa, Registro y sustitución de candidaturas",Otros temas identificados,gemini
+TEE-JDCN-60-2024,JDCN_TEE-JDCN-60-2024.json,JDCN,2024,confirma,Paridad de género,Paridad de género,Paridad de género,gemini
+TEE-JDCN-61-2021,JDCN_TEE-JDCN-61-2021.json,JDCN,2021,confirma,,"Registro y sustitución de candidaturas, Usos y costumbres indígenas",Otros temas identificados,gemini
+TEE-JDCN-62-2017,JDCN_TEE-JDCN-62-2017.json,JDCN,2017,no_detectado,,Desistimiento,Otros temas identificados,gemini
+TEE-JDCN-62-2021,JDCN_TEE-JDCN-62-2021 Y ACUMULADOS.json,JDCN,2021,confirma,Paridad de género,"Paridad de género, Registro y sustitución de candidaturas",Paridad de género,gemini
+TEE-JDCN-64-2017,JDCN_TEE-JDCN-64-2017 y acumulados.json,JDCN,2017,revoca,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-69-2021,JDCN_TEE-JDCN-69-2021.json,JDCN,2021,confirma,,"Registro y sustitución de candidaturas, Acción afirmativa",Otros temas identificados,gemini
+TEE-JDCN-69-2024,JDCN_TEE-JDCN-69-2024 Y SUS ACUMULADOS.json,JDCN,2024,declara_fundado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-70-2017,JDCN_TEE-JDCN-70-2017.json,JDCN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-70-2021,JDCN_TEE-JDCN-70-2021.json,JDCN,2021,declara_fundado,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-71-2017,JDCN_TEE-JDCN-71-2017.json,JDCN,2017,confirma,Derecho a ser votado / ejercicio del cargo,"Reelección, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-71-2021,JDCN_TEE-JDCN-71-2021.json,JDCN,2021,sobresee,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-72-2017,JDCN_TEE-JDCN-72-2017 y acumulado.json,JDCN,2017,desecha,,"Registro y sustitución de candidaturas, Desistimiento",Otros temas identificados,gemini
+JDCN_TEE-JDCN-72-2024-y-acumulado-TEE-JDCN-73-2024,JDCN_TEE-JDCN-72-2024-y-acumulado-TEE-JDCN-73-2024.json,JDCN,,confirma,Nulidad de elección,"Usos y costumbres indígenas, Nulidad de elección",Nulidad de elección,gemini
+TEE-JDCN-73-2021,JDCN_TEE-JDCN-73-2021 Y ACUMULADOS.json,JDCN,2021,confirma,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Acción afirmativa, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-76-2017,JDCN_TEE-JDCN-76-2017 CUMPLIMIENTO.json,JDCN,2017,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-76-2017,JDCN_TEE-JDCN-76-2017.json,JDCN,2017,desecha,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-77-2017,JDCN_TEE-JDCN-77-2017.json,JDCN,2017,desecha,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-77-2021,JDCN_TEE-JDCN-77-2021 Y ACUMULADO.json,JDCN,2021,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-78-2017,JDCN_TEE-JDCN-78-2017.json,JDCN,2017,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JDCN-78-2021,JDCN_TEE-JDCN-78-2021.json,JDCN,2021,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-79-2017,JDCN_TEE-JDCN-79-2017 y sus acumulados.json,JDCN,2017,desecha,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-79-2021,JDCN_TEE-JDCN-79-2021.json,JDCN,2021,confirma,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-JDCN-80-2021,JDCN_TEE-JDCN-80-2021.json,JDCN,2021,declara_infundado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-81-2021,JDCN_TEE-JDCN-81-2021.json,JDCN,2021,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-81-2024,JDCN_TEE-JDCN-81-2024 y acumulado TEE-JDCN-83-2024.json,JDCN,2024,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-82-2021,JDCN_TEE-JDCN-82-2021.json,JDCN,2021,desecha,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-82-2024,JDCN_TEE-JDCN-82-2024.json,JDCN,2024,no_detectado,"Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-83-2021,JDCN_TEE-JDCN-83-2021 Y ACUMULADO TEE-AP-40-2021.json,JDCN,2021,confirma,Derecho a ser votado / ejercicio del cargo,"Integración de órganos electorales, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-84-2021,JDCN_TEE-JDCN-84-2021 Y ACUMULADOS.json,JDCN,2021,modifica,,"Acción afirmativa, Registro y sustitución de candidaturas",Otros temas identificados,gemini
+JDCN_TEE-JDCN-84-2024 11-12-24,JDCN_TEE-JDCN-84-2024 11-12-24.json,JDCN,,declara_fundado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-85-2021,JDCN_TEE-JDCN-85-2021.json,JDCN,2021,confirma,,"Acción afirmativa, Recuento y nulidad de casilla",Otros temas identificados,gemini
+TEE-JDCN-86-2017,JDCN_TEE-JDCN-86-2017.json,JDCN,2017,no_detectado,Vida interna de partidos políticos,"Registro y sustitución de candidaturas, Vida interna de partidos políticos",Vida interna de partidos políticos,gemini
+TEE-JDCN-86-2021,JDCN_TEE-JDCN-86-2021 Y ACUMULADOS.json,JDCN,2021,confirma,,"Acción afirmativa, Registro y sustitución de candidaturas, Recuento y nulidad de casilla",Otros temas identificados,gemini
+TEE-JDCN-87-2017,JDCN_TEE-JDCN-87-2017.json,JDCN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-87-2021,JDCN_TEE-JDCN-87-2021 Y ACUMULADOS.json,JDCN,2021,confirma,Financiamiento y prerrogativas,"Registro y sustitución de candidaturas, Financiamiento y prerrogativas",Financiamiento y prerrogativas,gemini
+TEE-JDCN-88-2017,JDCN_TEE-JDCN-88-2017.json,JDCN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-89-2017,JDCN_TEE-JDCN-89-2017.json,JDCN,2017,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-89-2021,JDCN_TEE-JDCN-89-2021 y acumulados.json,JDCN,2021,confirma,,"Acción afirmativa, Registro y sustitución de candidaturas",Otros temas identificados,gemini
+TEE-JDCN-90-2017,JDCN_TEE-JDCN-90-2017.json,JDCN,2017,desecha,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-90-2021,JDCN_TEE-JDCN-90-2021.json,JDCN,2021,confirma,,Acción afirmativa,Otros temas identificados,gemini
+TEE-JDCN-91-2017,JDCN_TEE-JDCN-91-2017 y acumulado.json,JDCN,2017,declara_infundado,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JDCN-92-2017,JDCN_TEE-JDCN-92-2017.json,JDCN,2017,desecha,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JDCN-92-2021,JDCN_TEE-JDCN-92-2021 Y ACUMULADOS.json,JDCN,2021,revoca,,"Registro y sustitución de candidaturas, Acción afirmativa",Otros temas identificados,gemini
+TEE-JDCN-93-2017,JDCN_TEE-JDCN-93-2017 INCIDENTAL 21-10-2021.json,JDCN,2021,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+JDCN_TEE-JDCN-93-2017 INCIDENTE DE INCUMPLIMIENTO,JDCN_TEE-JDCN-93-2017 INCIDENTE DE INCUMPLIMIENTO.json,JDCN,,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+JDCN_TEE-JDCN-93-2017 INCIDENTE DE LIQUIDACION,JDCN_TEE-JDCN-93-2017 INCIDENTE DE LIQUIDACION.json,JDCN,,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-93-2017,JDCN_TEE-JDCN-93-2017 y acumulados 15-05-2020.json,JDCN,2020,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-93-2017,JDCN_TEE-JDCN-93-2017 y acumulados incidental 13-020-2019.json,JDCN,2017,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-93-2017,JDCN_TEE-JDCN-93-2017 y sus acumulados.json,JDCN,2017,declara_fundado,"Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo",gemini
+JDCN_TEE-JDCN-93-2024,JDCN_TEE-JDCN-93-2024.json,JDCN,,desecha,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JDCN-94-2024,JDCN_TEE-JDCN-94-2024.json,JDCN,2024,sobresee,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JDCN-97-2017,JDCN_TEE-JDCN-97-2017.json,JDCN,2017,sobresee,"Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo","Remuneraciones y dietas de cargos públicos, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-JDCN-98-2017,JDCN_TEE-JDCN-98-2017.json,JDCN,2017,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+JDCN_TEE.JDCN-01-2023,JDCN_TEE.JDCN-01-2023.json,JDCN,2023,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-JIN-01-2024,JIN_SENTENCIA TEE-JIN-01-2024 20-06-2024.json,JIN,2024,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JIN-02-2024,JIN_SENTENCIA TEE-JIN-02-2024 24-08-2024.json,JIN,2024,confirma,Nulidad de elección,Nulidad de elección,Nulidad de elección,gemini
+TEE-JIN-02-2024,JIN_SENTENCIA TEE-JIN-02-2024 25-07-2024.json,JIN,2024,confirma,Nulidad de elección,Nulidad de elección,Nulidad de elección,gemini
+TEE-JIN-03-2024,JIN_SENTENCIA TEE-JIN-03-2024 26-07-2024.json,JIN,2024,confirma,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JIN-04-2024,JIN_SENTENCIA TEE-JIN-04-2024 30-06-2024.json,JIN,2024,confirma,Paridad de género,Paridad de género,Paridad de género,gemini
+TEE-JIN-05-2024,JIN_SENTENCIA TEE-JIN-05-2024 Y ACUMULADOS 26-06-2024.json,JIN,2024,confirma,Paridad de género,"Paridad de género, Registro y sustitución de candidaturas",Paridad de género,gemini
+TEE-JIN-09-2024,JIN_SENTENCIA TEE-JIN-09-2024 09-07-2024.json,JIN,2024,confirma,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JIN-16-2024,JIN_SENTENCIA TEE-JIN-16-2024 02-07-2024.json,JIN,2024,desecha,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-18-2024,JIN_SENTENCIA TEE-JIN-18-2024 18-07-2024_0001.json,JIN,2024,desecha,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-19-2024,JIN_SENTENCIA TEE-JIN-19-2024 26-07-2024.json,JIN,2024,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-21-2024,JIN_SENTENCIA TEE-JIN-21-2024 26-07-2024.json,JIN,2024,confirma,"Nulidad de elección, Fiscalización / Recursos públicos","Nulidad de elección, Fiscalización / Recursos públicos","Nulidad de elección, Fiscalización / Recursos públicos",gemini
+TEE-JIN-22-2024,JIN_SENTENCIA TEE-JIN-22-2024 04-07-2024.json,JIN,2024,no_detectado,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-23-2024,JIN_SENTENCIA TEE-JIN-23-2024 26-06-2024.json,JIN,2024,no_detectado,,Desistimiento,Otros temas identificados,gemini
+TEE-JIN-24-2024,JIN_SENTENCIA TEE-JIN-24-2024 18-07-2024.json,JIN,2024,desecha,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-27-2024,JIN_SENTENCIA TEE-JIN-27-2024 18-07-2024.json,JIN,2024,desecha,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-28-2024,JIN_SENTENCIA TEE-JIN-28-2024 11-07-2024.json,JIN,2024,desecha,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-32-2024,JIN_SENTENCIA TEE-JIN-32-2024 Y ACUMULADOS 04-07-2024.json,JIN,2024,confirma,Paridad de género,"Registro y sustitución de candidaturas, Paridad de género",Paridad de género,gemini
+TEE-JIN-33-2024,JIN_SENTENCIA TEE-JIN-33-2024 Y SU ACUMULADO TEE-JDCN-80-2024.json,JIN,2024,desecha,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JIN-01-2021,JIN_TEE-JIN-01-2021.json,JIN,2021,desecha,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-02-2021,JIN_TEE-JIN-02-2021.json,JIN,2021,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-03-2017,JIN_TEE-JIN-03-2017 y sus acumulados.json,JIN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,"Derecho a ser votado / ejercicio del cargo, Recuento y nulidad de casilla",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JIN-03-2021,JIN_TEE-JIN-03-2021 y acumulado.json,JIN,2021,confirma,Nulidad de elección,"Recuento y nulidad de casilla, Nulidad de elección",Nulidad de elección,gemini
+TEE-JIN-04-2017,JIN_TEE-JIN-04-2017.json,JIN,2017,desecha,,Desistimiento,Otros temas identificados,gemini
+TEE-JIN-04-2021,JIN_TEE-JIN-04-2021.json,JIN,2021,sobresee,,Desistimiento,Otros temas identificados,gemini
+TEE-JIN-05-2017,JIN_TEE-JIN-05-2017.json,JIN,2017,revoca,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JIN-05-2021,JIN_TEE-JIN-05-2021.json,JIN,2021,modifica,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-06-2017,JIN_TEE-JIN-06-2017 y su acumulado.json,JIN,2017,modifica,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JIN-06-2021,JIN_TEE-JIN-06-2021.json,JIN,2021,no_detectado,,"Registro y sustitución de candidaturas, Acción afirmativa",Otros temas identificados,gemini
+TEE-JIN-07-2017,JIN_TEE-JIN-07-2017.json,JIN,2017,no_detectado,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-07-2021,JIN_TEE-JIN-07-2021 y acumulado.json,JIN,2021,modifica,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JIN-08-2017,JIN_TEE-JIN-08-2017 y su acumulado.json,JIN,2017,desecha,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-JIN-08-2021,JIN_TEE-JIN-08-2021 Y ACUMULADO TEE-JIN-09-2021.json,JIN,2021,confirma,Coalición electoral,"Coalición electoral, Registro y sustitución de candidaturas",Coalición electoral,gemini
+TEE-JIN-10-2017,JIN_TEE-JIN-10-2017.json,JIN,2017,confirma,"Nulidad de elección, Fiscalización / Recursos públicos","Nulidad de elección, Fiscalización / Recursos públicos","Nulidad de elección, Fiscalización / Recursos públicos",gemini
+TEE-JIN-10-2021,JIN_TEE-JIN-10-2021.json,JIN,2021,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-11-2017,JIN_TEE-JIN-11-2017.json,JIN,2017,declara_infundado,Nulidad de elección,Nulidad de elección,Nulidad de elección,gemini
+TEE-JIN-12-2021,JIN_TEE-JIN-12-2021 30 DE JULIO.json,JIN,2021,confirma,Coalición electoral,"Registro y sustitución de candidaturas, Coalición electoral",Coalición electoral,gemini
+TEE-JIN-13-2017,JIN_TEE-JIN-13-2017.json,JIN,2017,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JIN-13-2021,JIN_TEE-JIN-13-2021.json,JIN,2021,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-14-2017,JIN_TEE-JIN-14-2017.json,JIN,2017,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-14-2021,JIN_TEE-JIN-14-2021 y sus acumulados.json,JIN,2021,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-15-2017,JIN_TEE-JIN-15-2017 y sus acumulados.json,JIN,2017,modifica,Nulidad de elección,"Registro y sustitución de candidaturas, Nulidad de elección",Nulidad de elección,gemini
+TEE-JIN-16-2021,JIN_TEE-JIN-16-2021.json,JIN,2021,revoca,Nulidad de elección,Nulidad de elección,Nulidad de elección,gemini
+TEE-JIN-17-2021,JIN_TEE-JIN-17-2021.json,JIN,2021,confirma,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-JIN-18-2017,JIN_TEE-JIN-18-2017.json,JIN,2017,declara_infundado,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-19-2017,JIN_TEE-JIN-19-2017.json,JIN,2017,no_detectado,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-20-2017,JIN_TEE-JIN-20-2017.json,JIN,2017,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JIN-21-2017,JIN_TEE-JIN-21-2017.json,JIN,2017,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JIN-21-2021,JIN_TEE-JIN-21-2021.json,JIN,2021,confirma,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-JIN-22-2017,JIN_TEE-JIN-22-2017.json,JIN,2017,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-22-2021,JIN_TEE-JIN-22-2021.json,JIN,2021,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-23-2017,JIN_TEE-JIN-23-2017.json,JIN,2017,desecha,,Desistimiento,Otros temas identificados,gemini
+TEE-JIN-23-2021,JIN_TEE-JIN-23-2021.json,JIN,2021,no_detectado,,Desistimiento,Otros temas identificados,gemini
+TEE-JIN-24-2017,JIN_TEE-JIN-24-2017.json,JIN,2017,confirma,"Nulidad de elección, Fiscalización / Recursos públicos","Nulidad de elección, Fiscalización / Recursos públicos","Nulidad de elección, Fiscalización / Recursos públicos",gemini
+TEE-JIN-25-2017,JIN_TEE-JIN-25-2017 y sus acumulados.json,JIN,2017,confirma,,"Recuento y nulidad de casilla, Registro y sustitución de candidaturas",Otros temas identificados,gemini
+TEE-JIN-28-2017,JIN_TEE-JIN-28-2017 y sus acumulados.json,JIN,2017,declara_infundado,,"Registro y sustitución de candidaturas, Integración de órganos electorales",Otros temas identificados,gemini
+TEE-JIN-28-2021,JIN_TEE-JIN-28-2021.json,JIN,2021,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-29-2021,JIN_TEE-JIN-29-2021 y acumulado.json,JIN,2021,confirma,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-JIN-32-2017,JIN_TEE-JIN-32-2017 y acumulado.json,JIN,2017,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-33-2021,JIN_TEE-JIN-33-2021.json,JIN,2021,desecha,,Desistimiento,Otros temas identificados,gemini
+TEE-JIN-34-2017,JIN_TEE-JIN-34-2017.json,JIN,2017,confirma,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-38-2017,JIN_TEE-JIN-38-2017.json,JIN,2017,no_detectado,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-39-2017,JIN_TEE-JIN-39-2017 y su acumulado.json,JIN,2017,no_detectado,,Recuento y nulidad de casilla,Otros temas identificados,gemini
+TEE-JIN-39-2021,JIN_TEE-JIN-39-2021 Y SU ACUMULADO.json,JIN,2021,confirma,Nulidad de elección,"Recuento y nulidad de casilla, Nulidad de elección",Nulidad de elección,gemini
+TEE-MII-05-2025,MII_Incidente de Excitativa de Justicia TEE-MII-05-2025.json,MII,2025,no_detectado,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-MII-01-2025,MII_SENTENCIA TEE-MII-01-2025 MII02 MII03.json,MII,2025,revoca,"Paridad de género, Derecho a ser votado / ejercicio del cargo","Paridad de género, Derecho a ser votado / ejercicio del cargo","Paridad de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-MII-02-2024,MII_SENTENCIA TEE-MII-02-2024 06-02-2024.json,MII,2024,desecha,,Desistimiento,Otros temas identificados,gemini
+TEE-MII-04-2025,MII_SENTENCIA TEE-MII-04-2025 Y VOTO PARTICULAR..json,MII,2025,revoca,"Remuneraciones y dietas de cargos públicos, Financiamiento y prerrogativas","Remuneraciones y dietas de cargos públicos, Financiamiento y prerrogativas","Remuneraciones y dietas de cargos públicos, Financiamiento y prerrogativas",gemini
+TEE-MII-06-2024,MII_SENTENCIA TEE-MII-06-2024 22-06-2024.json,MII,2024,desecha,Nulidad de elección,Nulidad de elección,Nulidad de elección,gemini
+TEE-MII-07-2024,MII_SENTENCIA TEE-MII-07-2024 30-06-2024.json,MII,2024,desecha,,Desistimiento,Otros temas identificados,gemini
+TEE-MII-09-2024,MII_SENTENCIA TEE-MII-09-2024 18-07-2024_0001.json,MII,2024,desecha,Derecho a ser votado / ejercicio del cargo,"Registro y sustitución de candidaturas, Derecho a ser votado / ejercicio del cargo",Derecho a ser votado / ejercicio del cargo,gemini
+TEE-MII-11-2024,MII_Sentencia TEE-MII-11-2024 .json,MII,2024,no_detectado,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-MII-01-2017,MII_TEE-MII-01-2017.json,MII,2017,no_detectado,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+TEE-MII-01-2018,MII_TEE-MII-01-2018.json,MII,2018,no_detectado,Vida interna de partidos políticos,Vida interna de partidos políticos,Vida interna de partidos políticos,gemini
+TEE-MII-01-2019,MII_TEE-MII-01-2019.json,MII,2019,no_detectado,,"Recusación de juzgadores, Imparcialidad y objetividad judicial",Otros temas identificados,gemini
+TEE-MII-01-2020,MII_TEE-MII-01-2020.json,MII,2020,no_detectado,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-MII-02-2017,MII_TEE-MII-02-2017.json,MII,2017,modifica,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-MII-02-2018,MII_TEE-MII-02-2018.json,MII,2018,no_detectado,,Desistimiento,Otros temas identificados,gemini
+TEE-MII-02-2021,MII_TEE-MII-02-2021 INCIDENTE EXCITATIVA.json,MII,2021,cumplida,,Otro / no identificado,Otro / no identificado,gemini
+TEE-MII-02-2021,MII_TEE-MII-02-2021-INCIDENTE DE INCUMPLIMIENTO DE SENTENCIA.json,MII,2021,incumplida,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-MII-02-2021,MII_TEE-MII-02-2021.json,MII,2021,revoca,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-MII-03-2024,MII_TEE-MII-03-2024.json,MII,2024,desecha,Paridad de género,Paridad de género,Paridad de género,gemini
+TEE-MII-04-2024,MII_TEE-MII-04-2024.json,MII,2024,desecha,,Acción afirmativa,Otros temas identificados,gemini
+TEE-MII-05-2025,MII_TEE-MII-05-2025.json,MII,2025,desecha,Financiamiento y prerrogativas,Financiamiento y prerrogativas,Financiamiento y prerrogativas,gemini
+TEE-MII-10-2024,MII_TEE-MII-10-2024.json,MII,2024,desecha,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,Remuneraciones y dietas de cargos públicos,gemini
+PES_En cumplimiento TEE-PES-05-2022,PES_En cumplimiento TEE-PES-05-2022.json,PES,,inexistencia_infraccion,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-PES-123-2021,PES_INCIDENTE DE IMPEDIMENTO TEE-PES-123-2021.json,PES,2021,no_detectado,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-PES-02-2022,PES_SENTENCIA INCIDENTE DE INCUMPLIMIENTO TEE-PES-02-2022 VERSION PUBLICA.json,PES,2022,parcialmente_cumplida,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+PES_SENTENCIA PES-33-2024 13-06-2024,PES_SENTENCIA PES-33-2024 13-06-2024.json,PES,2024,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+PES_SENTENCIA PES-40-2024 13-06-2024,PES_SENTENCIA PES-40-2024 13-06-2024.json,PES,2024,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+PES_SENTENCIA PES-42-2024 13-06-2024,PES_SENTENCIA PES-42-2024 13-06-2024.json,PES,2024,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+PES_SENTENCIA PES-43-2024 13-06-2024,PES_SENTENCIA PES-43-2024 13-06-2024.json,PES,2024,inexistencia_infraccion,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-04-2024,PES_SENTENCIA TEE-PES-04-2024.json,PES,2024,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-08-2024,PES_SENTENCIA TEE-PES-08-2024 09-05-2024.json,PES,2024,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-09-2024,PES_SENTENCIA TEE-PES-09-2024 09-05-2024.json,PES,2024,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-11-2024,PES_SENTENCIA TEE-PES-11-2024 Y SUS ACUMULADOS 03-06-2024.json,PES,2024,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-14-2024,PES_SENTENCIA TEE-PES-14-2024 24-05-2024.json,PES,2024,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-16-2024,PES_SENTENCIA TEE-PES-16-2024 Y ACUMULADO 23-05-2024.json,PES,2024,inexistencia_infraccion,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-19-2024,PES_SENTENCIA TEE-PES-19-2024 08-06-2024.json,PES,2024,no_detectado,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-21-2024,PES_SENTENCIA TEE-PES-21-2024 Y ACUMULADOS 11-06-2024.json,PES,2024,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-26-2024,PES_SENTENCIA TEE-PES-26-2024 Y ACUMULADO 08-06-2024.json,PES,2024,sobresee,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-27-2024,PES_SENTENCIA TEE-PES-27-2024 01-06-2024.json,PES,2024,no_detectado,,Interés superior de la niñez,Otros temas identificados,gemini
+TEE-PES-29-2024,PES_SENTENCIA TEE-PES-29-2024 22-06-2024.json,PES,2024,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-30-2024,PES_SENTENCIA TEE-PES-30-2024 03-06-2024.json,PES,2024,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-35-2024,PES_SENTENCIA TEE-PES-35-2024.json,PES,2024,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-36-2024,PES_SENTENCIA TEE-PES-36-2024 03-06-2024.json,PES,2024,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-37-2024,PES_SENTENCIA TEE-PES-37-2024 17-06-2024.json,PES,2024,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-38-2024,PES_SENTENCIA TEE-PES-38-2024 26-08-2024.json,PES,2024,inexistencia_infraccion,Actos anticipados de campaña,"Actos anticipados de campaña, Propaganda gubernamental",Actos anticipados de campaña,gemini
+TEE-PES-39-2024,PES_SENTENCIA TEE-PES-39-2024 26-08-2024.json,PES,2024,inexistencia_infraccion,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-41-2024,PES_SENTENCIA TEE-PES-41-2024 20-06-2024.json,PES,2024,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-44-2024,PES_SENTENCIA TEE-PES-44-2024 08-06-2024.json,PES,2024,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-45-2024,PES_SENTENCIA TEE-PES-45-2024 26-08-2024.json,PES,2024,inexistencia_infraccion,Actos anticipados de campaña,"Actos anticipados de campaña, Propaganda gubernamental",Actos anticipados de campaña,gemini
+TEE-PES-46-2024,PES_SENTENCIA TEE-PES-46-2024 17-06-2024.json,PES,2024,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-47-2024,PES_SENTENCIA TEE-PES-47-2024 18-07-2024.json,PES,2024,existencia_infraccion,,Acción afirmativa,Otros temas identificados,gemini
+TEE-PES-47-2024,PES_SENTENCIA TEE-PES-47-2024 20-06-2024.json,PES,2024,existencia_infraccion,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-PES-48-2024,PES_SENTENCIA TEE-PES-48-2024 09-07-2024.json,PES,2024,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-49-2024,PES_SENTENCIA TEE-PES-49-2024 18-07-2024.json,PES,2024,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-50-2024,PES_SENTENCIA TEE-PES-50-2024 30-08-2024.json,PES,2024,existencia_infraccion,,"Protección de derechos de niñas, niños y adolescentes",Otros temas identificados,gemini
+TEE-PES-51-2024,PES_SENTENCIA TEE-PES-51-2024 26-08-2024.json,PES,2024,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-01-2017,PES_TEE-PES-01-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-01-2020,PES_TEE-PES-01-2020-1.json,PES,2020,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+PES_TEE-PES-01-2020-2,PES_TEE-PES-01-2020-2.json,PES,,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+PES_TEE-PES-01-2020,PES_TEE-PES-01-2020.json,PES,,no_detectado,,Procedimiento especial sancionador,Otros temas identificados,gemini
+TEE-PES-01-2021,PES_TEE-PES-01-2021 30-03-2021.json,PES,2021,no_detectado,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-01-2021,PES_TEE-PES-01-2021.json,PES,2021,revoca,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-01-2022,PES_TEE-PES-01-2022.json,PES,2022,modifica,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-01-2023,PES_TEE-PES-01-2023 SENTENCIA 29-02-2024.json,PES,2024,inexistencia_infraccion,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-PES-01-2023,PES_TEE-PES-01-2023.json,PES,2023,inexistencia_infraccion,"Violencia política de género, Remuneraciones y dietas de cargos públicos","Violencia política de género, Remuneraciones y dietas de cargos públicos","Violencia política de género, Remuneraciones y dietas de cargos públicos",gemini
+PES_TEE-PES-01-2024,PES_TEE-PES-01-2024.json,PES,,existencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-01-2025,PES_TEE-PES-01-2025.json,PES,2025,inexistencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-02-2017,PES_TEE-PES-02-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+PES_TEE-PES-02-2020,PES_TEE-PES-02-2020.json,PES,,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-02-2021,PES_TEE-PES-02-2021 06-04-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+PES_TEE-PES-02-2021-Inexistencias-a-pruebas-supervenientes,PES_TEE-PES-02-2021-Inexistencias-a-pruebas-supervenientes.json,PES,,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-02-2021,PES_TEE-PES-02-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+PES_TEE-PES-02-2022 30-06-2022 version publica,PES_TEE-PES-02-2022 30-06-2022 version publica.json,PES,,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-PES-02-2022,PES_TEE-PES-02-2022 INCIDENTAL 19-12-2022 VERSIÓN PÚBLICA.json,PES,2022,parcialmente_cumplida,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+PES_TEE-PES-02-2024,PES_TEE-PES-02-2024.json,PES,,no_detectado,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-PES-03-2017,PES_TEE-PES-03-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+PES_TEE-PES-03-2020,PES_TEE-PES-03-2020.json,PES,,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-03-2021,PES_TEE-PES-03-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+PES_TEE-PES-03-2022,PES_TEE-PES-03-2022.json,PES,,no_detectado,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+PES_TEE-PES-03-2024,PES_TEE-PES-03-2024.json,PES,,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-PES-04-2017,PES_TEE-PES-04-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+PES_TEE-PES-04-2020,PES_TEE-PES-04-2020.json,PES,,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-04-2021,PES_TEE-PES-04-2021 18-05-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-04-2021,PES_TEE-PES-04-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-05-2017,PES_TEE-PES-05-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-05-2020,PES_TEE-PES-05-2020 27-01-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,"Actos anticipados de campaña, Propaganda gubernamental",Actos anticipados de campaña,gemini
+PES_TEE-PES-05-2020,PES_TEE-PES-05-2020.json,PES,,no_detectado,Actos anticipados de campaña,"Actos anticipados de campaña, Propaganda gubernamental",Actos anticipados de campaña,gemini
+TEE-PES-05-2021,PES_TEE-PES-05-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-05-2022,PES_TEE-PES-05-2022-VP.json,PES,2022,inexistencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-05-2022,PES_TEE-PES-05-2022-VPRG.json,PES,2022,inexistencia_infraccion,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-PES-05-2022,PES_TEE-PES-05-2022.json,PES,2022,inexistencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-05-2024,PES_TEE-PES-05-2024 SENTENCIA.json,PES,2024,no_detectado,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-06-2017,PES_TEE-PES-06-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-06-2020,PES_TEE-PES-06-2020.json,PES,2020,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-06-2021,PES_TEE-PES-06-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-06-2024,PES_TEE-PES-06-2024 SENTENCIA.json,PES,2024,no_detectado,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,Derecho a ser votado / ejercicio del cargo,gemini
+TEE-PES-07-2017,PES_TEE-PES-07-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+PES_TEE-PES-07-2020,PES_TEE-PES-07-2020.json,PES,,no_detectado,Actos anticipados de campaña,"Propaganda gubernamental, Actos anticipados de campaña",Actos anticipados de campaña,gemini
+TEE-PES-07-2021,PES_TEE-PES-07-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-07-2024,PES_TEE-PES-07-2024.json,PES,2024,no_detectado,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-08-2017,PES_TEE-PES-08-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-08-2020,PES_TEE-PES-08-2020.json,PES,2020,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-08-2021,PES_TEE-PES-08-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-09-2017,PES_TEE-PES-09-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+PES_TEE-PES-09-2020,PES_TEE-PES-09-2020.json,PES,,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-09-2021,PES_TEE-PES-09-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-10-2017,PES_TEE-PES-10-2017.json,PES,2017,no_detectado,,Propaganda electoral,Otros temas identificados,gemini
+TEE-PES-10-2020,PES_TEE-PES-10-2020.json,PES,2020,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-10-2021,PES_TEE-PES-10-2021.json,PES,2021,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-10-2024,PES_TEE-PES-10-2024.json,PES,2024,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-100-2021,PES_TEE-PES-100-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-101-2021,PES_TEE-PES-101-2021.json,PES,2021,no_detectado,,Interés superior de la niñez,Otros temas identificados,gemini
+TEE-PES-102-2021,PES_TEE-PES-102-2021.json,PES,2021,no_detectado,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-103-2021,PES_TEE-PES-103-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-104-2021,PES_TEE-PES-104-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-105-2021,PES_TEE-PES-105-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-106-2021,PES_TEE-PES-106-2021.json,PES,2021,inexistencia_infraccion,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-PES-107-2021,PES_TEE-PES-107-2021.json,PES,2021,inexistencia_infraccion,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-108-2021,PES_TEE-PES-108-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-109-2021,PES_TEE-PES-109-2021.json,PES,2021,inexistencia_infraccion,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-11-2017,PES_TEE-PES-11-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-11-2020,PES_TEE-PES-11-2020.json,PES,2020,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-11-2021,PES_TEE-PES-11-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-110-2021,PES_TEE-PES-110-2021.json,PES,2021,inexistencia_infraccion,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-111-2021,PES_TEE-PES-111-2021.json,PES,2021,inexistencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-112-2021,PES_TEE-PES-112-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-113-2021,PES_TEE-PES-113-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-114-2021,PES_TEE-PES-114-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-115-2021,PES_TEE-PES-115-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-116-2021,PES_TEE-PES-116-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-117-2021,PES_TEE-PES-117-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-118-2021,PES_TEE-PES-118-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-119-2021,PES_TEE-PES-119-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-12-2017,PES_TEE-PES-12-2017.json,PES,2017,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-12-2020,PES_TEE-PES-12-2020.json,PES,2020,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-120-2021,PES_TEE-PES-120-2021.json,PES,2021,inexistencia_infraccion,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-121-2021,PES_TEE-PES-121-2021.json,PES,2021,declara_improcedente,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-122-2021,PES_TEE-PES-122-2021.json,PES,2021,inexistencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-123-2021,PES_TEE-PES-123-2021-Incidente-de-impedimento.json,PES,2021,no_detectado,,Integración de órganos electorales,Otros temas identificados,gemini
+TEE-PES-123-2021,PES_TEE-PES-123-2021.json,PES,2021,no_detectado,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-124-2021,PES_TEE-PES-124-2021.json,PES,2021,no_detectado,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-125-2021,PES_TEE-PES-125-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-126-2021,PES_TEE-PES-126-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-13-2021,PES_TEE-PES-13-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-14-2017,PES_TEE-PES-14-2017.json,PES,2017,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-14-2021,PES_TEE-PES-14-2021.json,PES,2021,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-15-2017,PES_TEE-PES-15-2017.json,PES,2017,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-15-2021,PES_TEE-PES-15-2021.json,PES,2021,no_detectado,"Actos anticipados de campaña, Fiscalización / Recursos públicos","Actos anticipados de campaña, Fiscalización / Recursos públicos","Actos anticipados de campaña, Fiscalización / Recursos públicos",gemini
+TEE-PES-15-2024,PES_TEE-PES-15-2024.json,PES,2024,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-16-2017,PES_TEE-PES-16-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-16-2021,PES_TEE-PES-16-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-17-2017,PES_TEE-PES-17-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-17-2021,PES_TEE-PES-17-2021.json,PES,2021,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-17-2024,PES_TEE-PES-17-2024.json,PES,2024,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-18-2017,PES_TEE-PES-18-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-18-2021,PES_TEE-PES-18-2021.json,PES,2021,no_detectado,"Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo","Violencia política de género, Derecho a ser votado / ejercicio del cargo",gemini
+TEE-PES-19-2017,PES_TEE-PES-19-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-19-2021,PES_TEE-PES-19-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-20-2021,PES_TEE-PES-20-2021 Y ACUMULADO TEE-PES-21-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-20-2024,PES_TEE-PES-20-2024.json,PES,2024,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-22-2021,PES_TEE-PES-22-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-23-2017,PES_TEE-PES-23-2017.json,PES,2017,confirma,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-23-2021,PES_TEE-PES-23-2021.json,PES,2021,existencia_infraccion,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-24-2017,PES_TEE-PES-24-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-24-2021,PES_TEE-PES-24-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-24-2024,PES_TEE-PES-24-2024.json,PES,2024,modifica,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-25-2021,PES_TEE-PES-25-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+PES_TEE-PES-25-2024,PES_TEE-PES-25-2024.json,PES,,no_detectado,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-26-2017,PES_TEE-PES-26-2017.json,PES,2017,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-26-2021,PES_TEE-PES-26-2021 22-06-2021.json,PES,2021,existencia_infraccion,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-26-2021,PES_TEE-PES-26-2021.json,PES,2021,existencia_infraccion,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-27-2017,PES_TEE-PES-27-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-27-2021,PES_TEE-PES-27-2021.json,PES,2021,inexistencia_infraccion,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-28-2017,PES_TEE-PES-28-2017.json,PES,2017,no_detectado,,Propaganda electoral,Otros temas identificados,gemini
+TEE-PES-28-2021,PES_TEE-PES-28-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-29-2017,PES_TEE-PES-29-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-29-2021,PES_TEE-PES-29-2021 Y ACUMULADO.json,PES,2021,existencia_infraccion,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-PES-30-2017,PES_TEE-PES-30-2017.json,PES,2017,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-30-2021,PES_TEE-PES-30-2021.json,PES,2021,existencia_infraccion,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-31-2017,PES_TEE-PES-31-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-31-2021,PES_TEE-PES-31-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-31-2024,PES_TEE-PES-31-2024.json,PES,2024,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-32-2017,PES_TEE-PES-32-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-32-2021,PES_TEE-PES-32-2021.json,PES,2021,inexistencia_infraccion,,"Calumnia e calumnia electoral, Propaganda electoral",Otros temas identificados,gemini
+TEE-PES-33-2017,PES_TEE-PES-33-2017 CUMPLIMIENTO.json,PES,2017,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-33-2017,PES_TEE-PES-33-2017.json,PES,2017,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-34-2017,PES_TEE-PES-34-2017.json,PES,2017,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-34-2021,PES_TEE-PES-34-2021.json,PES,2021,inexistencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-34-2024,PES_TEE-PES-34-2024.json,PES,2024,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-35-2017,PES_TEE-PES-35-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-35-2021,PES_TEE-PES-35-2021 03-09-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-35-2021,PES_TEE-PES-35-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-36-2017,PES_TEE-PES-36-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-36-2021,PES_TEE-PES-36-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-37-2017,PES_TEE-PES-37-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-37-2021,PES_TEE-PES-37-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-38-2017,PES_TEE-PES-38-2017.json,PES,2017,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-38-2021,PES_TEE-PES-38-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-39-2017,PES_TEE-PES-39-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-39-2021,PES_TEE-PES-39-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-40-2021,PES_TEE-PES-40-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-41-2017,PES_TEE-PES-41-2017 y acumulado.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-41-2017,PES_TEE-PES-41-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-41-2021,PES_TEE-PES-41-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-41-2024,PES_TEE-PES-41-2024.json,PES,2024,no_detectado,Actos anticipados de campaña,"Propaganda gubernamental, Actos anticipados de campaña",Actos anticipados de campaña,gemini
+TEE-PES-42-2021,PES_TEE-PES-42-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-43-2021,PES_TEE-PES-43-2021.json,PES,2021,existencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-44-2021,PES_TEE-PES-44-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-45-2021,PES_TEE-PES-45-2021.json,PES,2021,inexistencia_infraccion,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-46-2017,PES_TEE-PES-46-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-46-2021,PES_TEE-PES-46-2021.json,PES,2021,no_detectado,,"Interés superior de la niñez, Propaganda electoral",Otros temas identificados,gemini
+TEE-PES-47-2017,PES_TEE-PES-47-2017.json,PES,2017,no_detectado,Fiscalización / Recursos públicos,"Fiscalización / Recursos públicos, Propaganda gubernamental",Fiscalización / Recursos públicos,gemini
+TEE-PES-47-2021,PES_TEE-PES-47-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-48-2017,PES_TEE-PES-48-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-48-2021,PES_TEE-PES-48-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-49-2017,PES_TEE-PES-49-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-49-2021,PES_TEE-PES-49-2021.json,PES,2021,inexistencia_infraccion,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-50-2017,PES_TEE-PES-50-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-50-2021,PES_TEE-PES-50-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-51-2021,PES_TEE-PES-51-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-52-2017,PES_TEE-PES-52-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-52-2021,PES_TEE-PES-52-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-53-2017,PES_TEE-PES-53-2017.json,PES,2017,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-53-2021,PES_TEE-PES-53-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-53-2024,PES_TEE-PES-53-2024 Y ACUMULADO TEE-PES-57-2024 INCIDENTE DE INCUMPLIMIENTO.json,PES,2024,cumplida,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-54-2017,PES_TEE-PES-54-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-54-2021,PES_TEE-PES-54-2021.json,PES,2021,inexistencia_infraccion,,Propaganda electoral,Otros temas identificados,gemini
+PES_TEE-PES-54-2024,PES_TEE-PES-54-2024.json,PES,,inexistencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-55-2017,PES_TEE-PES-55-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-55-2021,PES_TEE-PES-55-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-56-2017,PES_TEE-PES-56-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-56-2021,PES_TEE-PES-56-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,"Actos anticipados de campaña, Propaganda gubernamental",Actos anticipados de campaña,gemini
+TEE-PES-56-2024,PES_TEE-PES-56-2024.json,PES,2024,declara_improcedente,,"Procedimiento especial sancionador, Propaganda gubernamental",Otros temas identificados,gemini
+TEE-PES-57-2017,PES_TEE-PES-57-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-57-2021,PES_TEE-PES-57-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-58-2017,PES_TEE-PES-58-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-58-2021,PES_TEE-PES-58-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+PES_TEE-PES-58-2024,PES_TEE-PES-58-2024.json,PES,,existencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-59-2017,PES_TEE-PES-59-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-59-2021,PES_TEE-PES-59-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-59-2024,PES_TEE-PES-59-2024.json,PES,2024,no_detectado,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-60-2017,PES_TEE-PES-60-2017.json,PES,2017,no_detectado,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-60-2021,PES_TEE-PES-60-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+PES_TEE-PES-60-2024,PES_TEE-PES-60-2024.json,PES,,existencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-61-2017,PES_TEE-PES-61-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-61-2021,PES_TEE-PES-61-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+PES_TEE-PES-61-2024,PES_TEE-PES-61-2024.json,PES,,existencia_infraccion,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-PES-62-2017,PES_TEE-PES-62-2017.json,PES,2017,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-62-2021,PES_TEE-PES-62-2021.json,PES,2021,inexistencia_infraccion,Coalición electoral,Coalición electoral,Coalición electoral,gemini
+TEE-PES-63-2017,PES_TEE-PES-63-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-63-2021,PES_TEE-PES-63-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-64-2017,PES_TEE-PES-64-2017.json,PES,2017,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-64-2021,PES_TEE-PES-64-2021.json,PES,2021,inexistencia_infraccion,,Propaganda electoral,Otros temas identificados,gemini
+TEE-PES-65-2017,PES_TEE-PES-65-2017.json,PES,2017,inexistencia_infraccion,,Propaganda electoral,Otros temas identificados,gemini
+TEE-PES-65-2021,PES_TEE-PES-65-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-66-2017,PES_TEE-PES-66-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-66-2021,PES_TEE-PES-66-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-67-2017,PES_TEE-PES-67-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-67-2021,PES_TEE-PES-67-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-68-2017,PES_TEE-PES-68-2017.json,PES,2017,no_detectado,,Registro y sustitución de candidaturas,Otros temas identificados,gemini
+TEE-PES-68-2021,PES_TEE-PES-68-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-69-2017,PES_TEE-PES-69-2017.json,PES,2017,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-69-2021,PES_TEE-PES-69-2021.json,PES,2021,inexistencia_infraccion,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-70-2017,PES_TEE-PES-70-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-70-2021,PES_TEE-PES-70-2021.json,PES,2021,existencia_infraccion,,Propaganda electoral indebida,Otros temas identificados,gemini
+TEE-PES-71-2017,PES_TEE-PES-71-2017.json,PES,2017,desecha,Fiscalización / Recursos públicos,"Propaganda gubernamental, Fiscalización / Recursos públicos",Fiscalización / Recursos públicos,gemini
+TEE-PES-71-2021,PES_TEE-PES-71-2021.json,PES,2021,declara_improcedente,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-72-2017,PES_TEE-PES-72-2017.json,PES,2017,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-72-2021,PES_TEE-PES-72-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-73-2017,PES_TEE-PES-73-2017.json,PES,2017,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-73-2021,PES_TEE-PES-73-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-74-2017,PES_TEE-PES-74-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-74-2021,PES_TEE-PES-74-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-75-2017,PES_TEE-PES-75-2017.json,PES,2017,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-75-2021,PES_TEE-PES-75-2021.json,PES,2021,inexistencia_infraccion,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-76-2017,PES_TEE-PES-76-2017.json,PES,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-76-2021,PES_TEE-PES-76-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-77-2017,PES_TEE-PES-77-2017.json,PES,2017,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-77-2021,PES_TEE-PES-77-2021.json,PES,2021,no_detectado,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-78-2017,PES_TEE-PES-78-2017.json,PES,2017,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-78-2021,PES_TEE-PES-78-2021.json,PES,2021,existencia_infraccion,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-79-2021,PES_TEE-PES-79-2021.json,PES,2021,inexistencia_infraccion,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-PES-80-2021,PES_TEE-PES-80-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-81-2021,PES_TEE-PES-81-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-82-2021,PES_TEE-PES-82-2021.json,PES,2021,no_detectado,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-83-2021,PES_TEE-PES-83-2021.json,PES,2021,modifica,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-84-2021,PES_TEE-PES-84-2021 Y ACUMULADO.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-85-2021,PES_TEE-PES-85-2021.json,PES,2021,inexistencia_infraccion,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-87-2021,PES_TEE-PES-87-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-88-2021,PES_TEE-PES-88-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-89-2021,PES_TEE-PES-89-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-90-2021,PES_TEE-PES-90-2021.json,PES,2021,inexistencia_infraccion,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-PES-91-2021,PES_TEE-PES-91-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-92-2021,PES_TEE-PES-92-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-93-2021,PES_TEE-PES-93-2021.json,PES,2021,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-94-2021,PES_TEE-PES-94-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-95-2021,PES_TEE-PES-95-2021.json,PES,2021,existencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-96-2021,PES_TEE-PES-96-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-PES-97-2021,PES_TEE-PES-97-2021.json,PES,2021,existencia_infraccion,,"Propaganda política, Interés superior de la niñez",Otros temas identificados,gemini
+TEE-PES-98-2021,PES_TEE-PES-98-2021.json,PES,2021,no_detectado,,Debates y encuestas electorales,Otros temas identificados,gemini
+TEE-PES-99-2021,PES_TEE-PES-99-2021.json,PES,2021,inexistencia_infraccion,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-RV-01-2024,RV_SENTENCIA TEE-RV-01-2024 08-06-2024.json,RV,2024,no_detectado,,"Procedimiento especial sancionador, Uso indebido de recursos públicos",Otros temas identificados,gemini
+TEE-RV-02-2024,RV_SENTENCIA TEE-RV-02-2024 11-06-2024.json,RV,2024,confirma,,Procedimiento especial sancionador,Otros temas identificados,gemini
+TEE-RV-01-2017,RV_TEE-RV-01-2017.json,RV,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+RV_TEE-RV-01-2020,RV_TEE-RV-01-2020.json,RV,,no_detectado,,Procedimiento sancionador,Otros temas identificados,gemini
+TEE-RV-01-2021,RV_TEE-RV-01-2021.json,RV,2021,confirma,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-RV-01-2024,RV_TEE-RV-01-2024.json,RV,2024,no_detectado,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,Fiscalización / Recursos públicos,gemini
+TEE-RV-02-2017,RV_TEE-RV-02-2017.json,RV,2017,desecha,Actos anticipados de campaña,"Actos anticipados de campaña, Desistimiento",Actos anticipados de campaña,gemini
+TEE-RV-02-2020,RV_TEE-RV-02-2020.json,RV,2020,no_detectado,,Otro / no identificado,Otro / no identificado,gemini
+TEE-RV-02-2021,RV_TEE-RV-02-2021.json,RV,2021,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-RV-03-2017,RV_TEE-RV-03-2017.json,RV,2017,confirma,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+RV_TEE-RV-03-2020,RV_TEE-RV-03-2020.json,RV,,no_detectado,,Procedimiento especial sancionador,Otros temas identificados,gemini
+TEE-RV-03-2021,RV_TEE-RV-03-2021.json,RV,2021,no_detectado,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-RV-04-2017,RV_TEE-RV-04-2017.json,RV,2017,confirma,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+RV_TEE-RV-04-2020,RV_TEE-RV-04-2020.json,RV,,desecha,,Otro / no identificado,Otro / no identificado,gemini
+TEE-RV-04-2021,RV_TEE-RV-04-2021.json,RV,2021,confirma,Actos anticipados de campaña,Actos anticipados de campaña,Actos anticipados de campaña,gemini
+TEE-RV-05-2017,RV_TEE-RV-05-2017.json,RV,2017,no_detectado,,Procedimiento especial sancionador,Otros temas identificados,gemini
+TEE-RV-06-2017,RV_TEE-RV-06-2017.json,RV,2017,confirma,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-RV-06-2021,RV_TEE-RV-06-2021.json,RV,2021,revoca,,"Procedimiento especial sancionador, Propaganda gubernamental",Otros temas identificados,gemini
+TEE-RV-07-2017,RV_TEE-RV-07-2017.json,RV,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-RV-07-2021,RV_TEE-RV-07-2021.json,RV,2021,revoca,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-RV-08-2021,RV_TEE-RV-08-2021.json,RV,2021,no_detectado,,Otro / no identificado,Otro / no identificado,gemini
+TEE-RV-09-2017,RV_TEE-RV-09-2017.json,RV,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-RV-09-2021,RV_TEE-RV-09-2021.json,RV,2021,no_detectado,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-RV-10-2017,RV_TEE-RV-10-2017.json,RV,2017,confirma,Fiscalización / Recursos públicos,"Fiscalización / Recursos públicos, Propaganda gubernamental",Fiscalización / Recursos públicos,gemini
+TEE-RV-10-2021,RV_TEE-RV-10-2021.json,RV,2021,no_detectado,Violencia política de género,Violencia política de género,Violencia política de género,gemini
+TEE-RV-12-2017,RV_TEE-RV-12-2017.json,RV,2017,no_detectado,,Procedimiento especial sancionador,Otros temas identificados,gemini
+TEE-RV-13-2017,RV_TEE-RV-13-2017.json,RV,2017,confirma,,Procedimiento especial sancionador,Otros temas identificados,gemini
+TEE-RV-14-2017,RV_TEE-RV-14-2017.json,RV,2017,modifica,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-RV-15-2017,RV_TEE-RV-15-2017.json,RV,2017,desecha,,Desistimiento,Otros temas identificados,gemini
+TEE-RV-16-2017,RV_TEE-RV-16-2017.json,RV,2017,sobresee,,"Propaganda gubernamental, Registro y sustitución de candidaturas",Otros temas identificados,gemini
+TEE-RV-17-2017,RV_TEE-RV-17-2017.json,RV,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-RV-18-2017,RV_TEE-RV-18-2017.json,RV,2017,revoca,,"Procedimiento especial sancionador, Propaganda gubernamental",Otros temas identificados,gemini
+TEE-RV-19-2017,RV_TEE-RV-19-2017.json,RV,2017,confirma,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-RV-20-2017,RV_TEE-RV-20-2017.json,RV,2017,revoca,,Procedimiento especial sancionador,Otros temas identificados,gemini
+TEE-RV-21-2017,RV_TEE-RV-21-2017.json,RV,2017,desecha,,Propaganda gubernamental,Otros temas identificados,gemini
+TEE-RV-22-2017,RV_TEE-RV-22-2017.json,RV,2017,no_detectado,,Propaganda gubernamental,Otros temas identificados,gemini

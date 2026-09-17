@@ -1,0 +1,11 @@
+pymupdf
+python-docx
+requests
+pandas
+pyarrow
+torch
+sentence-transformers
+scikit-learn
+lime
+joblib
+streamlit

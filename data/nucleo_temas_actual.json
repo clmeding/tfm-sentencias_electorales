@@ -1,0 +1,47 @@
+{
+  "generado": "2026-09-01T01:59:48.100543+00:00",
+  "total_documentos": 866,
+  "top_n": 10,
+  "nucleo": [
+    {
+      "tema": "Actos anticipados de campaña",
+      "documentos": 133
+    },
+    {
+      "tema": "Violencia política de género",
+      "documentos": 97
+    },
+    {
+      "tema": "Vida interna de partidos políticos",
+      "documentos": 89
+    },
+    {
+      "tema": "Derecho a ser votado / ejercicio del cargo",
+      "documentos": 73
+    },
+    {
+      "tema": "Remuneraciones y dietas de cargos públicos",
+      "documentos": 71
+    },
+    {
+      "tema": "Coalición electoral",
+      "documentos": 60
+    },
+    {
+      "tema": "Fiscalización / Recursos públicos",
+      "documentos": 58
+    },
+    {
+      "tema": "Paridad de género",
+      "documentos": 54
+    },
+    {
+      "tema": "Financiamiento y prerrogativas",
+      "documentos": 48
+    },
+    {
+      "tema": "Nulidad de elección",
+      "documentos": 45
+    }
+  ]
+}

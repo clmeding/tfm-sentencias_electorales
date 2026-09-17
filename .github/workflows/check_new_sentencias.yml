@@ -1,0 +1,53 @@
+name: Revisar sentencias nuevas en trieen.mx
+
+on:
+  schedule:
+    # 14:00 UTC = 08:00 hora de Ciudad de México (UTC-6, sin horario de
+    # verano desde 2022). Ajusta la hora aquí si prefieres otro horario.
+    - cron: "0 14 * * *"
+  workflow_dispatch: {}  # permite lanzarlo manualmente desde la pestaña Actions
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check-new-documents:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar el código del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Revisar catálogo de trieen.mx
+        id: check
+        run: python scripts/check_new_documents.py
+
+      - name: Guardar el manifiesto actualizado en el repositorio
+        if: steps.check.outputs.has_new_documents == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/known_documents.json
+          git commit -m "Actualiza manifiesto: ${{ steps.check.outputs.new_documents_count }} documento(s) nuevo(s) detectado(s)"
+          git push
+
+      - name: Crear aviso (Issue) de documentos nuevos
+        if: steps.check.outputs.has_new_documents == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Sentencias nuevas detectadas: ${{ steps.check.outputs.new_documents_count }}`,
+              body: `Se detectaron documentos nuevos en trieen.mx que aún no están en el corpus procesado:\n\n${{ steps.check.outputs.new_documents_list }}\n\nCorre el pipeline en tu entorno de trabajo para descargarlos y procesarlos.`,
+            })
