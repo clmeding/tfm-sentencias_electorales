@@ -13,7 +13,7 @@ sentence-transformers/paraphrase-multilingual-mpnet-base-v2
 generar embeddings de documentos nuevos — solo necesita haberse
 descargado una vez.
 
-## Descarga previa (necesaria antes de la defensa)
+## Descarga previa
 
 La primera vez que se usa el modelo, `sentence-transformers` lo descarga
 automáticamente desde Hugging Face (~470 MB) y lo guarda en caché local.
@@ -34,7 +34,7 @@ modelo queda guardado en:
 (o `~/.cache/torch/sentence_transformers/` en versiones anteriores de la
 librería).
 
-## Verificar que quedó en caché (sin internet)
+## Verificar que quedó en caché
 
 Para confirmar que el modelo ya no necesita descargarse, desconecta el
 wifi y corre:
