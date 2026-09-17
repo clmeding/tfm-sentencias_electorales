@@ -1,350 +1,263 @@
-# Pipeline de análisis de sentencias — TEE Nayarit
+# tfm-sentencias_electorales
+# Pipeline de análisis, Recuperación y Predicción de Resoluciones Electorales para el Tribunal Estatal Electoral de Nayarit
 
 Trabajo de Fin de Máster. Autora: Clarissa Anahi Medina Garcia.
 
-**Repositorio privado.** Ver [LICENSE.md](LICENSE.md) — todos los
-derechos reservados. El acceso de colaboradores está limitado a fines de
-revisión académica.
+**Repositorio privado.** Ver [LICENSE.md](LICENSE.md) — todos los derechos reservados. 
+El acceso de colaboradores está limitado a fines de revisión académica.
 
 ## Qué hace este proyecto
 
-Extrae, limpia y estructura el texto de las sentencias públicas del
-Tribunal Estatal Electoral de Nayarit (fuente: [trieen.mx](https://trieen.mx/sentencias/)),
-para construir un corpus analizable y, en una etapa posterior, entrenar un
-modelo de aprendizaje automático que estime la probabilidad de que una
-resolución sea confirmada, modificada o revocada.
+Extrae, limpia y estructura el texto de las sentencias públicas del Tribunal Estatal Electoral de Nayarit (fuente: [trieen.mx](https://trieen.mx/sentencias/)) para construir un corpus analizable.
 
-Solo se consideran **sentencias** (se excluyen los Acuerdos Plenarios del
-corpus de modelado).
+En una etapa posterior, el pipeline aplica técnicas de procesamiento de lenguaje natural y aprendizaje automático supervisado para crear una interfaz que permite cargar un borrador de sentencia. Como resultado, el usuario recibe una muestra acotada de resoluciones afines al tema de fondo, una clasificación automática del sentido resolutivo junto con el nivel de confianza de la estimación, y acceso a resúmenes de las sentencias relacionadas.
+
+Los resúmenes contienen los hechos, agravios, resolución, tema y enlace a la página web del documento, permitiendo obtener una idea previa de su contenido sin necesidad de consultar el documento completo.
+
+Solo se consideran **sentencias** (se excluyen los Acuerdos Plenarios del corpus de modelado).
 
 ## Estructura
 
 ```
 src/
-  document_loader.py     Localiza los documentos a procesar
-  pdf_extractor.py       Extracción directa de texto de PDFs
-  docx_extractor.py      Extracción de texto de archivos .docx
-  ocr_processor.py       OCR para PDFs escaneados (ocrmypdf + tesseract)
-  cleaner.py             Limpieza de texto (incluye eliminación del
-                          ruido de OCR en el membrete institucional)
-  metadata_extractor.py  Extracción de metadatos desde el nombre de archivo
-  sentido_extractor.py   Detección del sentido de la resolución
-                          (confirma / revoca / modifica / etc.)
-  detectar_temas.py      Detector de temas por palabras clave (regex,
-                          sin IA) para el panel de KPIs del corpus
-  main.py                Orquesta el pipeline completo
+  document_loader.py                          Localiza los documentos a procesar
+  pdf_extractor.py                            Extracción directa de texto de PDFs
+  docx_extractor.py                           Extracción de texto de archivos .docx
+  ocr_processor.py                            OCR para PDFs escaneados (ocrmypdf +
+                                              tesseract)
+  cleaner.py                                  Limpieza de texto (incluye eliminación del
+                                              ruido de OCR en el membrete institucional)
+  metadata_extractor.py                       Extracción de metadatos desde el nombre de
+                                              archivo
+  sentido_extractor.py                        Detección del sentido de la resolución
+                                              (confirma / revoca / modifica / etc.)
+  detectar_temas.py                           Detector de temas por palabras clave
+                                              (regex, sin API) para el panel de KPIs del
+                                              corpus
+  precedentes_datos.py                        Recuperación de precedentes (TF-IDF +
+                                              coincidencia de sentido y tema)
+  explicar_prediccion.py                      Predicción del clasificador de sentido +
+                                              explicación LIME
+  evaluar_documento.py                        Extracción y corte previo al resolutivo
+                                              para un documento nuevo (usado por el demo
+                                              Streamlit)
+  main.py                                     Orquesta el pipeline completo
 
-scripts/
-  download_trieen.py       Descarga el corpus completo desde trieen.mx
-  check_new_documents.py   Revisa si hay documentos nuevos (usado por
-                            el workflow programado de GitHub Actions)
-  build_dataset.py         Genera el inventario data/dataset_sentencias.csv
-                           (una fila por documento, con su sentido)
-  build_dataset_modelo.py  Construye el dataset de MODELADO: texto previo
-                           al resolutivo (insumo) + sentido (etiqueta).
-                           Valida que cada etiqueta pertenezca al catálogo
-                           oficial de 13 clases y descarta documentos
-                           duplicados (mismo texto, nombre de archivo
-                           distinto).
-  detectar_sentido_gemini.py     Detecta el sentido vía API de Gemini para
-                            los documentos que sentido_extractor.py (basado
-                            en reglas) no pudo clasificar. Solo se aceptan
-                            etiquetas con confianza alta o media.
-  generar_embeddings.py    Genera los embeddings semánticos de cada
-                            documento del dataset de modelado con un
-                            modelo local (sentence-transformers,
-                            paraphrase-multilingual-mpnet-base-v2, 768
-                            dimensiones). Es el script oficial del
-                            pipeline -- corre offline, sin costo por
-                            evaluación.
-  generar_embeddings_gemini.py   Versión alterna que usa la API de
-                            Gemini (gemini-embedding-001, 768
-                            dimensiones) en vez del modelo local. Se
-                            conserva solo como referencia histórica de
-                            la comparación de embeddings (ver CAMBIOS.md,
-                            sección 9) -- ya no forma parte del pipeline
-                            oficial por motivos de reproducibilidad.
-  comparar_escenarios_corte.py   Análisis de sensibilidad (partición
-                            única 80/20, ver CAMBIOS.md sección 9) --
-                            superado por evaluar_kfold.py, se conserva
-                            solo como referencia histórica.
-  evaluar_kfold.py         Valida los escenarios completo/sin_aproximado
-                            con validación cruzada estratificada (k=5) --
-                            método oficial de evaluación del proyecto (ver
-                            CAMBIOS.md, sección 10).
-  diagnostico_confusion.py Genera la matriz de confusión y el F1 por
-                            clase (out-of-fold) del modelo oficial.
-  diagnostico_calidad_ocr.py     Mide qué tan legible salió el OCR de
-                            cada documento, para detectar casos con texto
-                            ilegible que deban excluirse del corpus.
-  calcular_temas.py        Recorre documents/output/*.json y genera
-                            data/temas_por_documento.csv (detección de
-                            temas por palabras clave, sin IA) para el
-                            panel de KPIs del corpus histórico.
-  generar_resumenes.py     Genera resúmenes estructurados (hechos,
-                            agravios, resolución) de cada sentencia vía
-                            Gemini, usados en el demo de evaluación.
-  entrenar_modelo.py       Entrena y evalúa el clasificador de sentido
-                            sobre un único escenario del dataset completo
+scripts/  (pipeline productivo)
+  download_trieen.py                          Descarga el corpus completo desde trieen.mx
+  check_new_documents.py                      Revisa si hay documentos nuevos (usado por
+                                              el workflow programado de GitHub Actions)
+  build_dataset.py                            Genera el inventario data/dataset_sentencias.csv
+                                              (una fila por documento, con su sentido)
+  build_dataset_modelo.py                     Construye el dataset de MODELADO: texto
+                                              previo al resolutivo (insumo) + sentido
+                                              (etiqueta). Valida que cada etiqueta
+                                              pertenezca al catálogo oficial de 13
+                                              clases y descarta documentos duplicados
+                                              (mismo texto, nombre de archivo distinto).
+  detectar_sentido_gemini.py                  Detecta el sentido vía API de Gemini para
+                                              los documentos que sentido_extractor.py
+                                              (basado en reglas) no pudo clasificar.
+                                              Solo se aceptan etiquetas con confianza
+                                              alta o media.
+  calcular_temas.py                           Recorre documents/output/*.json y genera
+                                              data/temas_por_documento.csv (detección de
+                                              temas por palabras clave, sin IA) para el
+                                              panel de KPIs del corpus histórico.
+  generar_embeddings.py                       Genera los embeddings semánticos de cada
+                                              documento del dataset de modelado con un
+                                              modelo local (sentence-transformers,
+                                              paraphrase-multilingual-mpnet-base-v2, 768
+                                              dimensiones). Corre offline, sin costo por
+                                              evaluación.
+  entrenar_modelo.py                          Entrena el clasificador final (Regresión
+                                              Logística L2) sobre el 100% de los datos y
+                                              deja modelo/*.joblib listo para producción.
+  generar_precedentes_tfidf.py                Construye el índice TF-IDF usado para
+                                              recuperar precedentes similares.
+  generar_resumenes.py                        Genera resúmenes estructurados (hechos,
+                                              agravios, resolución) de cada sentencia
+                                              vía Gemini, usados en el demo de evaluación.
+  cargar_sqlite.py                            Carga ETL a base de datos SQLite (etapa
+                                              "Load"), integrando
+                                              dataset_sentencias.csv, resumenes.json y
+                                              temas_por_documento.csv.
+
+scripts/  (análisis, evaluación y diagnóstico)
+  comparar_modelos_clasificacion.py           Compara Regresión Logística L2, SVM Lineal
+                                              y Random Forest (k=5) -- sustenta la
+                                              elección del modelo final.
+  evaluar_kfold.py                            Genera las métricas oficiales reportadas
+                                              (accuracy, F1 macro, F1 ponderado) por
+                                              validación cruzada estratificada k=5.
+  diagnostico_confusion.py                    Genera la matriz de confusión y el F1 por
+                                              clase (out-of-fold) del modelo oficial.
+  comparar_escenarios_corte.py                Prueba de sensibilidad: corte aproximado
+                                              vs. corpus completo -- superada por
+                                              evaluar_kfold.py, se conserva como
+                                              referencia histórica de la decisión (ver
+                                              CAMBIOS.md).
+  comparar_precedentes_tfidf_vs_semantico.py  Reconstruye, sobre el corpus completo, la
+                                              comparación que justificó usar TF-IDF en
+                                              vez de embeddings semánticos para
+                                              precedentes.
+  validar_reranking_temas.py                  Validó que reordenar precedentes por tema
+                                              compartido mejora los resultados --
+                                              decisión ya adoptada por defecto en
+                                              producción (usar_temas=True).
+  diagnostico_sentido.py                      Por qué un documento no obtuvo sentido por
+                                              regex.
+  diagnostico_precedentes.py                  Por qué un documento no obtuvo precedentes.
+  mejorar_features_negacion.py                Prueba (no adoptada) de agregar features
+                                              léxicas de negación a los embeddings.
+  detectar_temas_gemini.py                    Retiquetado del corpus completo por tema
+                                              vía Gemini -- usado solo para la
+                                              comparación documentada en
+                                              detectar_temas.py (revisión 30-ago-2026),
+                                              no forma parte del detector regex que
+                                              corre en producción.
+  calcular_temas_gemini.py                    Combina esa detección Gemini con la regex
+                                              de respaldo, para la misma comparación.
+  resumen_temas_libres.py                     Resume los temas de vocabulario libre que
+                                              Gemini identificó en ese retiquetado.
+
+demo/
+  streamlit_app.py                            Aplicación demostrativa: evaluación de un
+                                              documento nuevo (sentido + LIME +
+                                              precedentes) y panel de KPIs del corpus
+                                              histórico.
 
 analisis_tesis/
-  analisis_descriptivo.py  Script aislado (fuera de scripts/, NO forma
-                           parte del pipeline de producción) que genera
-                           el análisis descriptivo completo del corpus
-                           para el escrito de tesis: desde el inventario
-                           crudo hasta el detalle final (embudo de
-                           construcción del corpus, categoría, año,
-                           sentido, temas, longitud de texto). Ver
-                           sección "Análisis descriptivo para el TFM"
-                           más abajo.
+  analisis_descriptivo.py                     Análisis descriptivo completo del corpus
+                                              para el TFM (embudo de construcción,
+                                              categoría, año, sentido, temas, longitud
+                                              de texto).
+  matriz_confusion_heatmap.py                 Genera las figuras de matriz de confusión
+                                              de los modelos comparados.
+  generar_diagrama_sentido.py                 Genera el diagrama de flujo de detección
+                                              del sentido.
 
 .github/workflows/
-  check_new_sentencias.yml  Revisión diaria automática de documentos
-                             nuevos en trieen.mx (abre un Issue si
-                             encuentra alguno)
+  check_new_sentencias.yml                    Revisión diaria automática de documentos
+                                              nuevos en trieen.mx (abre un Issue si
+                                              encuentra alguno).
 
 data/
-  known_documents.json    Manifiesto de documentos ya detectados
-                           (usado por el workflow programado)
-  dataset_sentencias.csv  Inventario de todos los documentos (metadatos +
-                           sentido detectado), generado por build_dataset.py
-  temas_por_documento.csv Tema(s) detectado(s) por documento (detección
-                           por palabras clave), generado por calcular_temas.py
-  dataset_modelo.parquet  Dataset de modelado (texto insumo + etiqueta),
-                           generado por build_dataset_modelo.py -- no se
-                           versiona en git, se regenera localmente
+  dataset_sentencias.csv                      Inventario de todos los documentos
+                                              (metadatos + sentido detectado), generado
+                                              por build_dataset.py
+  dataset_modelo.parquet                      Dataset de modelado (texto insumo +
+                                              etiqueta), generado por
+                                              build_dataset_modelo.py -- no se versiona
+                                              en git, se regenera localmente
+  known_documents.json                        Manifiesto de documentos ya detectados
+                                              (usado por el workflow programado)
+  temas_por_documento.csv                     Tema(s) detectado(s) por documento,
+                                              generado por calcular_temas.py
+  nucleo_temas_actual.json                    Núcleo dinámico de temas más frecuentes
+                                              del corpus real, recalculado cada vez que
+                                              corre calcular_temas.py
+  resumenes.json                              Resúmenes estructurados (hechos, agravios,
+                                              resolución) de cada sentencia, generados
+                                              por generar_resumenes.py
+  diagnostico_calidad_ocr.csv                 Puntaje de calidad de OCR por documento,
+                                              generado por diagnostico_calidad_ocr.py
+  temas_gemini.json                           Retiquetado del corpus completo por tema
+                                              vía Gemini (comparación histórica)
+  temas_gemini_backup_09sep.json              Respaldo del retiquetado anterior a la
+                                              incorporación del respaldo Gemini
+  temas_libres_frecuencia.csv                 Frecuencia de los temas de vocabulario
+                                              libre identificados por Gemini
+  validacion_reranking_temas.csv              Resultado de la validación del
+                                              reordenamiento de precedentes por tema
+  sentido_gemini_v1_backup.json               Respaldo de una versión anterior de las
+                                              etiquetas de sentido detectadas por Gemini
 
 modelo/
-  clasificador.joblib      Modelo entrenado (regresión logística sobre
-                           embeddings)
-  scaler.joblib            Escalador usado antes de clasificar
-  label_encoder.joblib     Codificador de las clases de sentido
-  (no se versionan en git -- se regeneran corriendo los scripts de
-  modelado, ver más abajo)
+  clasificador.joblib                         Modelo entrenado (regresión logística
+                                              sobre embeddings)
+  scaler.joblib                               Escalador usado antes de clasificar
+  label_encoder.joblib                        Codificador de las clases de sentido
+
+
+## Requisitos
+Además de las dependencias de Python (`pip install -r requirements.txt`), el procesamiento
+de OCR requiere dos herramientas de sistema, no instalables vía pip:
+
+- macOS: `brew install ocrmypdf tesseract`
+- Linux (Debian/Ubuntu): `apt install ocrmypdf tesseract-ocr`
+
 ```
 
-## Modelo predictivo de sentido
+##  Arquitectura del proyecto
 
-Además del pipeline de extracción, el proyecto incluye un modelo que
-predice el sentido probable de una sentencia (confirma/revoca/modifica/
-etc.) a partir del texto **previo al resolutivo** (hechos, agravios,
-considerandos) -- deliberadamente se excluye el resolutivo mismo, porque
-es justo ahí donde se anuncia la respuesta, y usarlo como insumo
-convertiría al modelo en un simple buscador de palabras clave en vez de
-un modelo predictivo real.
+<img width="731" height="47" alt="image" src="https://github.com/user-attachments/assets/a9972604-ed65-4878-bc9c-6b095a41581a" />
 
-**Corpus de modelado:** el detector de sentido basado en reglas
-(`sentido_extractor.py`) identifica 565 documentos utilizables sobre un
-inventario total de 879 (886 originales menos 7 documentos con OCR
-ilegible, ver más abajo). Para aprovechar parte de los ~300 restantes
-que quedan como `no_detectado` (en su mayoría por variantes de OCR o
-redacciones atípicas del resolutivo, no porque no tuvieran sentido), se
-añadió una segunda pasada con la API de Gemini (`detectar_sentido_gemini.py`)
-que clasifica esos documentos y solo acepta las etiquetas con confianza
-alta o media. Tras excluir Acuerdos Plenarios (13), documentos sin
-etiqueta de sentido utilizable (4) y duplicados (6), el corpus de
-modelado final queda en **856 documentos**, cifra verificada de forma
-reproducible contra el código y los datos versionados en git — ver la
-nota de corrección de la auditoría en
-[CAMBIOS.md, sección 11](CAMBIOS.md#11-auditoría-de-reproducibilidad-del-corpus-de-modelado-849-no-856-2-de-septiembre-de-2026).
+### Flujo de construcción del sistema en producción.
 
-> **Nota sobre la cifra del corpus:** una auditoría del 2 de septiembre
-> de 2026 (sección 11 de CAMBIOS.md) había declarado 849 documentos como
-> cifra reproducible, en lugar de los 856 de la sección 10. Una revisión
-> posterior (5 de septiembre) confirmó que el código y los datos usados
-> en esa auditoría son idénticos a los de hoy y que el pipeline completo
-> reproduce 856 de forma consistente -- la auditoría de 849 no se
-> había verificado ejecutando el pipeline completo en su momento. Se
-> retracta esa cifra: **856 documentos es la cifra oficial y
-> reproducible**, consistente con las métricas de exactitud/F1 de la
-> tabla siguiente.
+<img width="353" height="449" alt="image" src="https://github.com/user-attachments/assets/62132592-3974-454d-92fd-63a9764ab82c" />
 
-**Análisis de sensibilidad (con/sin corte aproximado):** en parte de esos
-documentos no fue posible ubicar el punto de corte con un marcador
-exacto (encabezado RESUELVE, transición "por lo fundado y motivado", o el
-marcador verbatim que devolvió Gemini), así que se usó un corte
-conservador del último ~15% del texto, dejando un escenario
-`sin_aproximado` más chico. La comparación se hace con
-validación cruzada k-fold (`scripts/evaluar_kfold.py`, k=5) en vez de
-una sola partición 80/20, porque una partición única resultó ser
-demasiado sensible al ruido con un corpus de este tamaño (ver CAMBIOS.md
-sección 10 para el detalle de cómo esto revirtió una conclusión
-anterior):
+El flujo de construcción comienza con la descarga y extracción de los documentos: main.py coordina los módulos de extracción (PDF, DOCX, OCR), limpieza y metadatos, y con ellos arma un dataset estructurado. Este dataset incluye las etiquetas de sentido, tema y resumen, además de metadatos como categoría de procedimiento, expediente y año. A partir de ese dataset, generar_embeddings.py genera las representaciones semánticas de cada sentencia. Estas representaciones se usan para dos tareas: entrenar y validar el modelo que clasifica el sentido resolutivo (mediante selección de modelo y validación cruzada k-fold), y buscar precedentes similares a un borrador de sentencia cargado. Ambos componentes unen en evaluar_documento.py, cuyos resultados —predicción explicada y precedentes relevantes— se exponen en la aplicación demostrativa desarrollada en Streamlit.
 
-| Escenario | Documentos | Exactitud | F1 macro | F1 ponderado |
-|---|---|---|---|---|
-| Completo | 856 | 59.6% ± 1.5 pp | 0.402 ± 0.032 | 0.594 ± 0.014 |
-| Sin corte aproximado | 697 | 59.0% ± 1.5 pp | 0.399 ± 0.048 | 0.589 ± 0.016 |
+### Flujo de desarrollo y evaluación de modelos.
 
-Con validación cruzada, ambos escenarios quedan prácticamente empatados
-(la diferencia está dentro de una desviación estándar entre folds) — la
-ventaja que parecía tener "sin_aproximado" en la evaluación de partición
-única anterior no se sostiene con una medición más robusta. Dado que el
-desempeño es equivalente, se declaró el escenario **completo** como
-oficial del proyecto, en reemplazo de `sin_aproximado` (ver CAMBIOS.md
-sección 10): aprovecha más datos sin sacrificar desempeño.
+<img width="323" height="402" alt="image" src="https://github.com/user-attachments/assets/6f62f7f8-3f0b-4f0e-a737-076b787796ad" />
 
-Enfoque: se generan embeddings semánticos con un modelo local
-(`sentence-transformers/paraphrase-multilingual-mpnet-base-v2`, 768
-dimensiones) de cada documento, y sobre esos embeddings se entrena un
-clasificador (regresión logística). Cada predicción se acompaña de una
-explicación en lenguaje natural (vía LIME) que señala qué palabras del
-texto más influyeron en el resultado.
+El flujo de desarrollo y evaluación de modelos usa el mismo dataset base, pero no forma parte de la producción. Su función es de prueba: compara distintos modelos de clasificación, valida su desempeño con k-fold y matrices de confusión, y contrasta dos formas de buscar precedentes (TF-IDF frente a semántica). Con estos resultados se decide qué modelo y qué estrategia de recuperación de precedentes pasa finalmente a producción.
 
-Se evaluaron tres opciones de embeddings (Gemini, un modelo local más
-pequeño -- MiniLM -- y el modelo local mpnet actual) antes de decidir;
-ver la comparación completa y la justificación de reproducibilidad en
-CAMBIOS.md, sección 9. Se optó por mpnet: cierra casi toda la brecha en
-exactitud frente a Gemini y corre completamente offline, sin costo por
-evaluación ni dependencia de una API externa.
+## Análisis descriptivo del catálogo de sentencias
+El corpus se construye del total de 886 documentos publicados en el sitio oficial del Tribunal Estatal del Estado de Nayarit. Durante la extracción del texto, 7 documentos resultaron ilegibles por fallas de digitalización que la corrección automatica de orientación no logró resolver por lo que partimos de un inventario base de 879 documentos. A partir del inventario base se excluyeron 13 Acuerdos Plenarios, lo que deja 866 documentos elegibles. De estos, se excluyeron 10 adicionales: 4 porque no fue posible obtener una etiqueta de sentido útil y 6 por ser duplicados. El corpus final de modelado queda en 856 documentos.
 
-Cómo reproducir el corpus de modelado y las métricas de k-fold en tu
-máquina local (requiere `documents/output/*.json`, no versionado en
-git):
+## Embeddings semánticos
 
-```bash
-python scripts/build_dataset.py        # regenera data/dataset_sentencias.csv (879 filas)
-python scripts/detectar_sentido_gemini.py  # regenera data/sentido_gemini.json (si no lo tienes ya)
-python scripts/build_dataset_modelo.py  # construye data/dataset_modelo.parquet (856 filas)
-python scripts/generar_embeddings.py    # modelo local (mpnet) -- no requiere API key
-python scripts/evaluar_kfold.py         # valida ambos escenarios con k-fold (k=5)
-python scripts/diagnostico_confusion.py # matriz de confusión y F1 por clase, out-of-fold
-python src/explicar_prediccion.py       # ejemplo de predicción + explicación sobre 3 documentos al azar
-```
+Cada documento del dataset de modelado se convierte en un vector semántico antes de entrenar el clasificador (scripts/generar_embeddings.py). Se compararon dos modelos locales sobre una muestra de 673 documentos (partición 80/20 estratificada):
 
-Desempeño del modelo oficial (escenario **completo**, validación
-cruzada k-fold, k=5, embeddings mpnet locales, ver detalle completo en
-CAMBIOS.md sección 10 y la nota de reproducibilidad arriba): exactitud
-59.6% ± 1.5 pp, F1 macro 0.402 ± 0.032, F1 ponderado 0.594 ± 0.014. Las
-clases con pocos ejemplos en el corpus (cumplida, declara_improcedente,
-declara_infundado, parcialmente_cumplida, incumplida, modifica) tienen
-métricas poco confiables por falta de datos -- además, la matriz de
-confusión muestra que se confunden principalmente con clases legalmente
-vecinas (p. ej. modifica con confirma/revoca), no al azar. Se documenta
-como limitación honesta del tamaño del corpus en el TFM, no se oculta.
+- **MiniLM** (384 dimensiones): exactitud 63.7%, F1 macro 0.443, F1 ponderado 0.625.
+- **mpnet** (paraphrase-multilingual-mpnet-base-v2, 768 dimensiones): exactitud 67.4%, F1 macro 0.519, F1 ponderado 0.663.
 
-## Panel de KPIs por tema (corpus histórico)
+Se adoptó mpnet como modelo oficial: la mejora en F1 macro indica que generaliza mejor específicamente sobre las clases minoritarias, no solo sobre las clases con más ejemplos. (scripts/generar_embeddings.py)
 
-`demo/streamlit_app.py` incluye una pestaña **"Panel del corpus
-histórico"** con:
+## Modelo de clasificación del sentido resolutivo
 
-- Total de sentencias analizadas.
-- Sentencias por tema (barra) -- incluye una barra "Otro / no
-  identificado" con las sentencias que no calzan en ninguno de los
-  temas del catálogo, para que el gráfico sume el 100% del corpus sin
-  dar la impresión de que falta cobertura.
-- Sentencias por año y por categoría de procedimiento (barras).
+Se compararon tres algoritmos sobre el corpus final (856 documentos, embeddings mpnet-base-v2 de 768 dimensiones) con validación cruzada estratificada k=5 (scripts/comparar_modelos_clasificacion.py, scripts/evaluar_kfold.py):
+- **Regresión Logística L2** (modelo final): exactitud 0.596 ± 0.015, F1 macro 0.402 ± 0.032, F1 ponderado 0.594 ± 0.014, AUC macro 0.858 ± 0.017.
+- **SVM Lineal**: descartado, no mejoró ninguna métrica frente a la Regresión Logística y presentó problemas de convergencia.
+- **Random Forest** (ajustado con RandomizedSearchCV): mejores métricas globales, pero falla por completo en la clase minoritaria declara_improcedente (0/19 aciertos) y confunde con más frecuencia el par jurídicamente opuesto existencia_infraccion/inexistencia_infraccion.
 
-Los temas se detectan por palabras clave (`src/detectar_temas.py`,
-regex, sin IA) con un umbral de 3+ menciones por documento para evitar
-falsos positivos (ej. "coalición" apareciendo solo en el nombre de un
-partido, no porque el caso trate de coaliciones). El panel excluye los
-Acuerdos Plenarios usando la columna `es_acuerdo_plenario` de
-`data/dataset_sentencias.csv` (si esa columna no existe, no filtra
-nada). No clasifica con precisión jurídica "de qué trata" la sentencia
--- es detección por palabras clave, documentado como tal en la propia
-pestaña del panel.
+Se eligió la Regresión Logística L2 como modelo final por su interpretabilidad y un comportamiento más controlado entre las 13 categorías, priorizando el comportamiento por clase sobre la métrica global. El detalle por clase y las matrices de confusión se generan con scripts/diagnostico_confusion.py y analisis_tesis/matriz_confusion_heatmap.py.
 
-Para regenerar el CSV de temas: `python scripts/calcular_temas.py`
-(segundos, sin GPU ni API).
+La explicación de cada predicción individual (LIME) se genera con src/explicar_prediccion.py, y la recuperación de precedentes similares (TF-IDF + coincidencia de sentido y tema) con src/precedentes_datos.py y scripts/generar_precedentes_tfidf.py. Ambas se integran en el demo de Streamlit (demo/streamlit_app.py).
 
-## Análisis descriptivo para el TFM
+## Validación cruzada k-fold
 
-`analisis_tesis/analisis_descriptivo.py` es un script aislado (fuera de
-`scripts/`, no forma parte del pipeline de producción) que genera el
-análisis descriptivo completo del corpus para la sección correspondiente
-del escrito: el embudo completo desde el inventario crudo hasta el
-detalle final, categoría de procedimiento, año, sentido de la
-resolución, temas y distribución de longitud de texto.
+El modelo de clasificación del sentido se evalúa con validación cruzada estratificada (k=5, random_state=42) en vez de una partición única, para evitar conclusiones sensibles al muestreo aleatorio (scripts/evaluar_kfold.py, scripts/comparar_modelos_clasificacion.py).
 
-```bash
-python analisis_tesis/analisis_descriptivo.py --repo-root .
-```
+Antes de fijar el corpus oficial, se comparó el escenario "corte aproximado" (documentos donde no se pudo ubicar el resolutivo exacto y se descarta el último 15% del texto, 159/856 documentos) contra el corpus completo. La diferencia entre ambos (0.006 en exactitud, 0.003 en F1 macro) está dentro del rango de variabilidad entre folds, así que se adoptó el corpus completo como oficial.
 
-Genera 7 gráficas (paleta Nexus) y un resumen en Markdown en
-`analisis_tesis/output/`. Ver la corrección de la auditoría de
-reproducibilidad del corpus (856 documentos, confirmado) en CAMBIOS.md,
-sección 11.
+Resultado final (Regresión Logística L2, corpus completo, 856 documentos): exactitud 0.596 ± 0.015, F1 macro 0.402 ± 0.032, F1 ponderado 0.594 ± 0.014, AUC macro 0.858 ± 0.017. El detalle por clase y las matrices de confusión se generan con scripts/diagnostico_confusion.py.
 
-## Resúmenes automáticos
+## Generación de resúmenes
 
-`scripts/generar_resumenes.py` genera, vía Gemini, un resumen estructurado
-(hechos / agravios / resolución) de cada sentencia en alcance -- 873
-documentos (todas las sentencias, sin Acuerdos Plenarios, sin importar si
-se les detectó sentido o no, calculado antes de la exclusión de OCR
-ilegible). Se guarda en `data/resumenes.json`, es resumible (si se
-interrumpe, retoma donde se quedó) y se usa en el demo de evaluación de
-documentos.
+Cada precedente que el sistema muestra incluye un resumen breve (hechos, agravios y resolución) para que la persona usuaria pueda decidir si vale la pena revisar el documento completo sin abrirlo. El resumen se genera una sola vez por sentencia mediante la API de Gemini y se guarda en data/resumenes.json (scripts/generar_resumenes.py).
 
-## Uso
+A diferencia del dataset de modelado -- que solo incluye las sentencias con una etiqueta de sentido detectada -- el resumen se genera para todas las sentencias del corpus, sin importar si el clasificador pudo determinar su sentido, porque su propósito es distinto: ayudar a evaluar la utilidad de un precedente, no entrenar el modelo.
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+El proceso es incremental: cada vez que se agregan documentos nuevos (main.py), se vuelve a correr generar_resumenes.py y solo genera el resumen de los documentos pendientes, sin repetir ni volver a pagar por los que ya tienen resumen guardado.
 
-# Descargar el corpus completo
-python scripts/download_trieen.py
+## Recuperación de precedentes
 
-# Procesar (extracción de texto + OCR cuando es necesario + limpieza)
-python src/main.py
-```
+Para identificar sentencias similares a un borrador, se evaluaron cuatro estrategias sobre una muestra de 40 documentos reales (similitud de coseno, candidatos por encima del percentil 90): embeddings semánticos (mpnet) reutilizados del clasificador, la sección de HECHOS extraída por expresiones regulares, resúmenes generados por LLM, y TF-IDF sobre el documento completo.
 
-Requiere `ocrmypdf` y `tesseract` (con el paquete de idioma español)
-instalados en el sistema para el OCR de PDFs escaneados.
+TF-IDF obtuvo el mejor resultado (13 vecinos de temática distinta, frente a 21-23 de las otras estrategias) y se confirmó al repetir la evaluación sobre el corpus completo (856 documentos). Se adoptó como base del proceso (scripts/generar_precedentes_tfidf.py).
 
-## Revisión automática de documentos nuevos
+El proceso final combina tres señales (src/precedentes_datos.py):
+1. Similitud de coseno sobre representación TF-IDF -- filtra candidatos por umbral de similitud textual.
+2. Coincidencia de sentido -- separa candidatos en "A favor" (mismo sentido que la predicción) y "Otros" (sentido distinto, útil como contraste).
+3. Coincidencia de tema -- prioriza, dentro de cada grupo, los precedentes que comparten al menos un tema con el documento evaluado.
 
-El workflow en `.github/workflows/check_new_sentencias.yml` corre todos
-los días y avisa (abriendo un Issue en este repositorio) si aparecen
-sentencias nuevas en trieen.mx que aún no se han procesado. No descarga
-ni procesa los PDFs en la nube — solo detecta y notifica, para correr el
-pipeline completo donde se tengan los recursos necesarios (OCR).
+Diagnóstico y validación: scripts/comparar_precedentes_tfidf_vs_semantico.py, scripts/diagnostico_precedentes.py, scripts/validar_reranking_temas.py.
 
-## Trabajo futuro: automatizar el pipeline completo en la nube
 
-Hoy el workflow programado (`check_new_sentencias.yml`) solo detecta
-documentos nuevos y abre un Issue, porque el texto extraído y los PDFs
-(varios GB) viven solo en local y están en `.gitignore` -- no caben en
-Git. Procesar un documento nuevo (descarga, OCR, limpieza, resumen,
-predicción) sigue requiriendo correr el pipeline a mano.
 
-Una vía para automatizarlo por completo sin costo adicional relevante,
-evaluada pero no implementada por prioridad de tiempo antes de la
-entrega del TFM:
 
-- **Cómputo:** ampliar la misma GitHub Action para que, además de
-  detectar, corra el pipeline completo (descarga -> OCR con
-  `tesseract-ocr` vía `apt install` -> limpieza -> resumen con Gemini ->
-  predicción del modelo). El repo privado incluye 2,000 minutos/mes
-  gratis de Actions ([GitHub Docs](https://docs.github.com/billing/managing-billing-for-github-actions/about-billing-for-github-actions)),
-  más que suficiente para procesar unos cuantos documentos nuevos por
-  corrida.
-- **Almacenamiento:** mover `documents/` (PDFs + texto extraído) a un
-  bucket tipo Cloudflare R2 en vez de mantenerlo solo en local -- da
-  10 GB gratis al mes y **no cobra por descargar datos** (egress
-  gratis), así la Action puede leer y escribir ahí sin costo extra
-  ([Cloudflare R2 pricing](https://developers.cloudflare.com/r2/pricing/)).
-- La llamada a Gemini (`scripts/generar_resumenes.py`) y la predicción
-  del modelo ya no dependerían de correr nada en una máquina local --
-  solo cambiaría la API key de variable de entorno local a "secret" de
-  GitHub Actions.
 
-Se decidió **posponer esta migración** y documentarla aquí como línea de
-trabajo futuro, priorizando cerrar la herramienta de evaluación de
-documentos (`src/evaluar_documento.py`) y el demo para la defensa antes
-de la fecha de entrega.
-
-## Qué NO hace el panel de temas (para no generar expectativas de más)
-
-- No clasifica con precisión jurídica "de qué trata" la sentencia -- es
-  detección por palabras clave.
-- No agrega los KPIs más interpretativos de un dashboard de referencia
-  (votación, ponencia por sexo, criterio relevante, perspectiva de
-  género) -- esos requieren datos que hoy no se extraen del texto y
-  probablemente juicio manual o Gemini con validación, quedan fuera dado
-  el tiempo disponible hasta la entrega.
-
-## Ver también
-
-- [CAMBIOS.md](CAMBIOS.md) — historial de cambios y decisiones técnicas.
