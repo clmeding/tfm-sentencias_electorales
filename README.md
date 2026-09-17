@@ -189,6 +189,22 @@ de OCR requiere dos herramientas de sistema, no instalables vía pip:
 
 ```
 
+##  Arquitectura del proyecto
+
+<img width="731" height="47" alt="image" src="https://github.com/user-attachments/assets/a9972604-ed65-4878-bc9c-6b095a41581a" />
+
+### Flujo de construcción del sistema en producción.
+
+<img width="353" height="449" alt="image" src="https://github.com/user-attachments/assets/62132592-3974-454d-92fd-63a9764ab82c" />
+
+El flujo de construcción comienza con la descarga y extracción de los documentos: main.py coordina los módulos de extracción (PDF, DOCX, OCR), limpieza y metadatos, y con ellos arma un dataset estructurado. Este dataset incluye las etiquetas de sentido, tema y resumen, además de metadatos como categoría de procedimiento, expediente y año. A partir de ese dataset, generar_embeddings.py genera las representaciones semánticas de cada sentencia. Estas representaciones se usan para dos tareas: entrenar y validar el modelo que clasifica el sentido resolutivo (mediante selección de modelo y validación cruzada k-fold), y buscar precedentes similares a un borrador de sentencia cargado. Ambos componentes unen en evaluar_documento.py, cuyos resultados —predicción explicada y precedentes relevantes— se exponen en la aplicación demostrativa desarrollada en Streamlit.
+
+### Flujo de desarrollo y evaluación de modelos.
+
+<img width="323" height="402" alt="image" src="https://github.com/user-attachments/assets/6f62f7f8-3f0b-4f0e-a737-076b787796ad" />
+
+El flujo de desarrollo y evaluación de modelos usa el mismo dataset base, pero no forma parte de la producción. Su función es de prueba: compara distintos modelos de clasificación, valida su desempeño con k-fold y matrices de confusión, y contrasta dos formas de buscar precedentes (TF-IDF frente a semántica). Con estos resultados se decide qué modelo y qué estrategia de recuperación de precedentes pasa finalmente a producción.
+
 ## Análisis descriptivo del catálogo de sentencias
 El corpus se construye del total de 886 documentos publicados en el sitio oficial del Tribunal Estatal del Estado de Nayarit. Durante la extracción del texto, 7 documentos resultaron ilegibles por fallas de digitalización que la corrección automatica de orientación no logró resolver por lo que partimos de un inventario base de 879 documentos. A partir del inventario base se excluyeron 13 Acuerdos Plenarios, lo que deja 866 documentos elegibles. De estos, se excluyeron 10 adicionales: 4 porque no fue posible obtener una etiqueta de sentido útil y 6 por ser duplicados. El corpus final de modelado queda en 856 documentos.
 
