@@ -13,9 +13,9 @@ Sirve como prueba de sensibilidad para el TFM: si el desempeño es
 parecido en ambos escenarios, el corte aproximado no está introduciendo
 ruido significativo y se puede reportar el modelo completo con
 confianza. Si cae mucho en el escenario "completo" (o sube mucho al
-quitar esos documentos), es señal de que esos ~178 casos sí están
-introduciendo ruido -- o de que el escenario B tiene una fuga que hace
-que la tarea sea artificialmente más fácil.
+quitar esos documentos), es señal de que sí está introduciendo ruido -- 
+o de que el escenario B tiene una fuga que hace que la tarea sea artificialmente 
+más fácil.
 
 Requiere que ya se haya corrido, en este orden:
     python scripts/build_dataset_modelo.py
